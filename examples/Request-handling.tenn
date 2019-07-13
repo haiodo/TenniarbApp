@@ -1,0 +1,397 @@
+element "Request" {
+    styles {
+        item {
+            shadow -5 -5 10
+        }
+        error {
+            color "red"
+        }
+        normal {
+            color "white"
+        }
+        request {
+            color "lightblue"
+        }
+        request_call {
+            color "blue"
+        }
+        heal {
+            color "yellow"
+        }
+        done {
+            color "green"
+        }
+        temporary {
+            color "purple"
+        }
+    }
+    item "Request" {
+        pos -263.0 198.0
+        use-style request_call
+        display circle
+        height 75
+        width 75
+    }
+    item "1. Create connection object" {
+        pos -308.5986328125 105.0
+        font-size 12
+        use-style request
+    }
+    item "2.Assign Id" {
+        pos -261.6240234375 67.0
+        font-size 12
+        use-style request
+    }
+    link "1. Create connection object" "2.Assign Id"
+    item "3. Select dataplane" {
+        pos -287.3896484375 21.0
+        font-size 12
+        use-style request
+    }
+    link "2.Assign Id" "3. Select dataplane"
+    item "4. Check if Upgrade/Heal is processing" {
+        pos -357.5810546875 -31.0
+        font-size 12
+        body "Check if NSE is required to be requested on update"
+        use-style heal
+    }
+    link "3. Select dataplane" "4. Check if Upgrade/Heal is processing"
+    item "4.1 Close NSE" {
+        pos -71.0693359375 6.0
+        font-size 12
+        body %{For different NetworkService selected.}
+        use-style heal
+    }
+    link "4. Check if Upgrade/Heal is processing" "4.1 Close NSE"
+    item "4.2 Check if we need to NSE.Request()" {
+        pos -70.0693359375 -55.0
+        font-size 12
+        body %{Check for parameters.}
+        use-style heal
+    }
+    link "4. Check if Upgrade/Heal is processing" "4.2 Check if we need to NSE.Request()"
+    item "4.2.1 Check user Request is changed" {
+        pos 192.2998046875 -11.0
+        font-size 10
+        use-style heal
+    }
+    link "4.2 Check if we need to NSE.Request()" "4.2.1 Check user Request is changed"
+    item "4.2.2 Check dataplane config" {
+        pos 196.2998046875 -43.0
+        font-size 12
+        use-style heal
+    }
+    item "4.2.3 Check remote mechanism" {
+        pos 193.7509765625 -75.0
+        font-size 12
+        use-style heal
+    }
+    item "5. select/update local mechanism" {
+        pos -329.0693359375 -73.0
+        font-size 12
+        use-style request
+    }
+    link "4. Check if Upgrade/Heal is processing" "5. select/update local mechanism"
+    item "If Remote" {
+        pos -78.7822265625 -107.0
+        font-size 12
+        body "Select Vxlan mechanism"
+        use-style request
+    }
+    link "5. select/update local mechanism" "If Remote"
+    item "If Local" {
+        pos 61.2177734375 -123.0
+        font-size 12
+        body "Select matched local mechanism"
+        use-style request
+    }
+    link "5. select/update local mechanism" "5. select/update local mechanism"
+    link "4.2.1 Check user Request is changed" "4.2.2 Check dataplane config"
+    link "4.2.2 Check dataplane config" "4.2.3 Check remote mechanism"
+    link "5. select/update local mechanism" "If Local" {
+        pos -3.0 -38.0
+    }
+    item "No Mechanism match" {
+        pos -517.7822265625 -78.0
+        font-size 12
+        use-style error
+    }
+    link "5. select/update local mechanism" "No Mechanism match"
+    item "No dataplane" {
+        pos -495.5810546875 23.0
+        font-size 12
+        use-style error
+    }
+    link "3. Select dataplane" "No dataplane"
+    item "0. Validate connection" {
+        pos -294.6240234375 144.0
+        font-size 12
+        use-style request
+    }
+    link "1. Create connection object" "0. Validate connection"
+    link "Request" "0. Validate connection"
+    item "Not valid" {
+        pos -470.0400390625 142.0
+        font-size 12
+        use-style error
+    }
+    link "0. Validate connection" "Not valid"
+    item "5.1 Close dataplane" {
+        pos -510.3564453125 -114.0
+        font-size 12
+        use-style request
+    }
+    link "No Mechanism match" "5.1 Close dataplane"
+    item "6. Establish Dataplane connection" {
+        pos -334.7822265625 -122.0
+        font-size 12
+        use-style request
+    }
+    link "5. select/update local mechanism" "6. Establish Dataplane connection"
+    item "Failed" {
+        pos -428.7822265625 -146.0
+        font-size 12
+        use-style error
+    }
+    link "6. Establish Dataplane connection" "Failed" {
+        pos -32.0 8.0
+    }
+    item "7. NSE.Request()" {
+        pos -285.6826171875 -174.0
+        font-size 12
+        use-style request
+    }
+    link "6. Establish Dataplane connection" "7. NSE.Request()"
+    item "7.1.1 Clone connection" {
+        pos -58.6826171875 -177.0
+        font-size 12
+        use-style request
+    }
+    link "7. NSE.Request()" "7.1.1 Clone connection" {
+        display arrow
+    }
+    item "7.1.2 Select existing endpoint if passed" {
+        pos 108.3173828125 -164.0
+        font-size 12
+        use-style request
+    }
+    item "In case of remote/Healing" {
+        pos 360.7900390625 -130.0
+        font-size 12
+    }
+    link "7.1.2 Select existing endpoint if passed" "In case of remote/Healing"
+    item "Select endpoint" {
+        pos -37.8720703125 -217.0
+        font-size 12
+        use-style request
+    }
+    link "7.1.1 Clone connection" "Select endpoint"
+    link "Select endpoint" "7.1.2 Select existing endpoint if passed" {
+        pos -26.0 0.0
+    }
+    item "Access registry for Endpoint" {
+        pos 139.0322265625 -197.0
+        font-size 12
+        use-style request
+    }
+    link "Select endpoint" "Access registry for Endpoint"
+    item "Select Endpoint not selected yet" {
+        pos 134.0322265625 -231.0
+        font-size 12
+        use-style request
+    }
+    link "Access registry for Endpoint" "Select Endpoint not selected yet"
+    link "Select Endpoint not selected yet" "Select endpoint" {
+        pos -13.0 -11.0
+    }
+    item "No endpoints" {
+        pos -142.9677734375 -221.0
+        font-size 12
+        use-style error
+    }
+    link "Select endpoint" "No endpoints"
+    item "Use existing conneciton id" {
+        pos -147.3896484375 70.0
+        font-size 12
+        use-style heal
+    }
+    link "2.Assign Id" "Use existing conneciton id"
+    item "Need to check if client is right one" {
+        pos -26.9853515625 105.0
+        font-size 12
+        use-style normal
+    }
+    link "Use existing conneciton id" "Need to check if client is right one"
+    item "Token?" {
+        pos 130.0146484375 132.0
+        font-size 12
+        use-style normal
+    }
+    link "Need to check if client is right one" "Token?"
+    item "7.1.5 update prefixes" {
+        pos -47.9677734375 -260.0
+        font-size 12
+        use-style request
+    }
+    link "Select endpoint" "7.1.5 update prefixes"
+    item "7.1.6 perform Request" {
+        pos -40.9677734375 -299.0
+        font-size 12
+        use-style request
+    }
+    link "7.1.5 update prefixes" "7.1.6 perform Request"
+    item "Create Client NSM/NSE" {
+        pos 131.9833984375 -271.0
+        font-size 12
+        use-style request
+    }
+    link "7.1.6 perform Request" "Create Client NSM/NSE"
+    item "Request()" {
+        pos 168.9833984375 -310.0
+        font-size 12
+        use-style request
+    }
+    link "Create Client NSM/NSE" "Request()"
+    item "Validate response" {
+        pos 136.9833984375 -349.0
+        font-size 12
+        use-style request
+    }
+    link "Request()" "Validate response"
+    item "Update Context/Params" {
+        pos 140.3427734375 -388.0
+        font-size 12
+        use-style request
+    }
+    link "Validate response" "Update Context/Params"
+    item "7.1.7 Retry" {
+        pos 13.9833984375 -359.0
+        font-size 12
+        use-style error
+        body "with another NSE"
+    }
+    link "Validate response" "7.1.7 Retry"
+    link "7.1.7 Retry" "7. NSE.Request()" {
+        label "retry with\nanother NSE"
+        pos -69.0 -60.0
+    }
+    item "7.1.8 NSE Done" {
+        pos -158.0166015625 -272.0
+        font-size 12
+        use-style request
+    }
+    link "7.1.6 perform Request" "7.1.8 NSE Done"
+    item "8. Remember Client Request" {
+        pos -353.6552734375 -313.0
+        font-size 12
+        use-style request
+    }
+    link "7. NSE.Request()" "8. Remember Client Request"
+    link "7.1.8 NSE Done" "7. NSE.Request()" {
+        display arrow
+    }
+    item "9. Add to model" {
+        pos -318.5634765625 -348.0
+        font-size 12
+        use-style request
+    }
+    link "8. Remember Client Request" "9. Add to model"
+    item "10. Programm Dataplane" {
+        pos -343.5634765625 -382.0
+        font-size 12
+        use-style request
+    }
+    link "9. Add to model" "10. Programm Dataplane"
+    item "10.1 If Heal" {
+        pos -155.6806640625 -409.0
+        font-size 12
+        use-style heal
+        body "Dataplane.Close()"
+    }
+    link "10. Programm Dataplane" "10.1 If Heal"
+    item "Will be fixed" {
+        pos -32.6806640625 -424.0
+        font-size 12
+        use-style temporary
+    }
+    item "Error" {
+        pos -439.9130859375 -418.0
+        font-size 12
+        use-style error
+    }
+    item "10.3 NSE.Close()" {
+        pos -474.9130859375 -458.0
+        font-size 12
+        use-style request
+    }
+    link "Error" "10.3 NSE.Close()"
+    item "10.2 Dataplane.Request()" {
+        pos -345.9130859375 -418.0
+        font-size 12
+        use-style request
+    }
+    link "10. Programm Dataplane" "10.2 Dataplane.Request()"
+    link "10.2 Dataplane.Request()" "Error"
+    item "11. Update Client Connection/Client" {
+        pos -353.1259765625 -468.0
+        font-size 12
+        use-style request
+    }
+    link "10.2 Dataplane.Request()" "11. Update Client Connection/Client"
+    item "7.2 Update CrossConnect" {
+        pos -445.6552734375 -244.0
+        font-size 12
+        use-style heal
+    }
+    link "7. NSE.Request()" "7.2 Update CrossConnect"
+    item "NSE.Request()" {
+        pos 309.4248046875 -371.0
+        font-size 12
+        use-style request
+    }
+    link "Request()" "NSE.Request()"
+    item "NSM.Request()" {
+        pos 306.4248046875 -320.0
+        font-size 12
+        use-style request
+    }
+    link "Request()" "NSM.Request()"
+    item "Same Request()" {
+        pos 480.4697265625 -321.0
+        font-size 12
+        use-style request
+    }
+    link "NSM.Request()" "Same Request()"
+    link "Same Request()" "Request" {
+        pos 377.0 265.0
+        display arrow
+    }
+    link "10.1 If Heal" "Will be fixed"
+    item "All DONE" {
+        pos -288.8876953125 -643.0
+        font-size 12
+        use-style done
+        display circle
+        height 75
+        width 75
+    }
+    link "11. Update Client Connection/Client" "All DONE"
+    item "If local remove NSE" {
+        pos 121.3818359375 -450.0
+    }
+    link "7.1.7 Retry" "If local remove NSE"
+    item "NSE failed to connect" {
+        pos 439.3818359375 -380.0
+        font-size 12
+        use-style error
+        body "with another NSE"
+    }
+    link "NSE.Request()" "NSE failed to connect"
+    item "Remove local NSE" {
+        pos 455.4501953125 -431.0
+        font-size 12
+        use-style heal
+        body
+    }
+    link "NSE failed to connect" "Remove local NSE"
+}

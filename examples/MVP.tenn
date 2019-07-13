@@ -1,0 +1,514 @@
+element "MVP" {
+    styles {
+        item {
+            font-size 12
+            shadow 5 5 7
+        }
+        feature {
+            color "blue"
+        }
+        done {
+            color "green"
+        }
+        required {
+            color "yellow"
+        }
+    }
+    item "Tenniarb" {
+        pos -247.0 136.0
+        color "#0022ee"
+        font-size 25
+        color red
+        display circle
+        width 100
+        height 100
+    }
+    link "Tenniarb" "UI" {
+        pos 0.0 2.0
+    }
+    item "UI" {
+        pos -228.0 -11.0
+        color lightgreen
+    }
+    link "UI" "Scene Draw"
+    item "Scene Draw" {
+        pos -465.0 5.0
+        color green
+    }
+    link "UI" "Editing"
+    item "Editing" {
+        pos -48.0 5.0
+        color "#00ee00"
+    }
+    link "Editing" "Titles"
+    item "Titles" {
+        pos -127.0 -23.0
+        color green
+        font-size 12
+        use-style done
+    }
+    link "Editing" "Properties"
+    item "Properties" {
+        pos 2.0 -39.0
+        color green
+        font-size 12
+    }
+    link "Properties" "Content assist"
+    item "Content assist" {
+        pos 95.0 -95.0
+        color white
+        font-size 12
+    }
+    link "Scene Draw" "Layout positions"
+    item "Layout positions" {
+        pos -466.0 67.0
+        color green
+        font-size 12
+    }
+    link "Scene Draw" "Items"
+    item "Items" {
+        pos -500.0 -32.0
+        color green
+        font-size 12
+    }
+    link "Scene Draw" "Links"
+    item "Links" {
+        pos -446.0 -41.0
+        color green
+        font-size 12
+    }
+    link "Editing" "Movements"
+    item "Movements" {
+        pos 83.0 -5.0
+        color green
+        font-size 12
+    }
+    link "Movements" "Items" {
+        target-index 1
+    }
+    item "Items" {
+        pos 164.0 20.0
+        color green
+        font-size 12
+    }
+    link "Movements" "Draw links"
+    item "Draw links" {
+        pos 163.0 -30.0
+        color green
+        font-size 12
+    }
+    item "Outline" {
+        pos -496.0 278.0
+        color green
+    }
+    link "Outline" "Edit titles"
+    item "Edit titles" {
+        pos -454.0 306.0
+        color green
+        font-size 12
+    }
+    link "Outline" "+/-"
+    item "+/-" {
+        pos -492.0 388.0
+        color green
+    }
+    link "Outline" "D&D"
+    item "D&D" {
+        pos -464.0 349.0
+        color green
+    }
+    link "Scene Draw" "Draw DSL"
+    item "Draw DSL" {
+        pos -608.0 -13.0
+        font-size 12
+    }
+    link "Scene Draw" "Colors"
+    item "Colors" {
+        pos -383.0 35.0
+        color green
+        font-size 12
+    }
+    item "Undo&Redo" {
+        pos -119.0 38.0
+        color green
+        font-size 12
+    }
+    link "Tenniarb" "Presentation materials"
+    item "Presentation materials" {
+        pos -296.0 253.0
+        color purple
+        font-size 12
+    }
+    link "Presentation materials" "Site"
+    item "Site" {
+        pos -348.0 325.0
+        font-size 12
+    }
+    link "Presentation materials" "App Store"
+    item "App Store" {
+        pos -197.0 313.0
+        font-size 12
+        color yellow
+    }
+    link "Site" "Domain"
+    item "Domain" {
+        pos -410.0 368.0
+        font-size 12
+    }
+    item "Registration" {
+        pos -251.0 399.0
+        color green
+        font-size 12
+    }
+    link "Registration" "App Store"
+    link "App Store" "Publication" {
+        pos 19.0 32.0
+    }
+    item "Publication" {
+        pos -228.0 437.0
+        font-size 12
+    }
+    link "Tenniarb" "Quality"
+    item "Quality" {
+        pos -89.0 185.0
+        font-size 12
+        color yellow
+    }
+    link "Quality" "Testing"
+    item "Testing" {
+        pos -72.0 256.0
+        font-size 12
+        color green-300
+    }
+    link "Quality" "Functional testing" {
+        pos -26.0 1.0
+    }
+    item "Functional testing" {
+        pos -91.0 324.0
+        font-size 12
+    }
+    link "Quality" "Performance"
+    item "Performance" {
+        pos -17.0 221.0
+        font-size 12
+        color green
+    }
+    link "Quality" "Durability"
+    item "Durability" {
+        pos -16.0 284.0
+        font-size 12
+        color green-300
+    }
+    link "Tenniarb" "Model"
+    item "Model" {
+        pos -397.0 187.0
+        color green
+    }
+    link "Model" "Cross diagram links" {
+        pos -76.0 35.0
+    }
+    item "Cross diagram links" {
+        pos -677.0 281.0
+    }
+    link "Outline" "Copy/paste"
+    item "Copy/paste" {
+        pos -566.0 343.0
+        font-size 12
+        use-style done
+    }
+    link "Model" "Persistence"
+    item "Persistence" {
+        pos -526.0 190.0
+        color green
+        font-size 12
+    }
+    link "Persistence" "Duplicate names"
+    item "Duplicate names" {
+        pos -631.0 218.0
+        color green
+        font-size 12
+    }
+    link "UI" "Layout"
+    item "Layout" {
+        pos -272.0 -127.0
+        use-style done
+    }
+    link "Layout" "Automatic"
+    item "Automatic" {
+        pos -317.0 -172.0
+        font-size 12
+    }
+    link "Layout" "Manual"
+    item "Manual" {
+        pos -283.0 -211.0
+        color green
+        font-size 12
+    }
+    link "Editing" "Selection"
+    item "Selection" {
+        pos -125.0 -54.0
+        color green
+        font-size 12
+        use-style done
+    }
+    link "Selection" "Duplicate"
+    item "Duplicate" {
+        pos -206.0 -87.0
+        font-size 12
+        color green
+        use-style done
+    }
+    link "App Store" "Images"
+    item "Images" {
+        pos -142.0 431.0
+        font-size 12
+        color green
+    }
+    link "App Store" "Description" {
+        pos -6.0 23.0
+    }
+    item "Description" {
+        pos -115.0 393.0
+        font-size 12
+        color green
+    }
+    link "Site" "Hosting"
+    item "Hosting" {
+        pos -389.0 413.0
+        font-size 12
+    }
+    item "Multiple" {
+        pos -172.365234375 -116.0
+        color red
+        font-size 12
+        color green
+        use-style done
+    }
+    item "Movements" {
+        pos -211.341796875 -147.0
+        font-size 12
+        use-style done
+    }
+    link "Multiple" "Movements" {
+        target-index 1
+    }
+    item "Parsing" {
+        pos -591.087890625 175.0
+        color green
+        font-size 12
+        test {
+            qwe {
+            }
+        }
+    }
+    link "Persistence" "Parsing"
+    link "Model" "Outline" {
+        pos 26.0 23.0
+        line-width 1
+    }
+    item "Calculation
+Engine" {
+        pos -63.0 112.0
+        use-style done
+    }
+    link "Tenniarb" "Calculation
+Engine"
+    item "expressions" {
+        pos 8.771484375 175.0
+        color green
+    }
+    link "Calculation
+Engine" "expressions"
+    item "expr dsl" {
+        pos 34.771484375 136.0
+        color green
+    }
+    link "Calculation
+Engine" "expr dsl"
+    item "Undo/Redo" {
+        pos 84.646484375 -47.0
+        color green
+        font-size 10
+    }
+    link "Properties" "Undo/Redo"
+    item "Corrections" {
+        pos -522.66796875 -81.0
+        font-size 12
+        color green
+    }
+    link "Links" "Corrections"
+    item "Keyboard\nshortcuts" {
+        pos -329.94921875 115.0
+        color red
+        color green
+    }
+    link "Tenniarb" "Keyboard\nshortcuts"
+    link "Editing" "Undo&Redo"
+    item "Copy/Paste" {
+        pos -13.365234375 59.0
+        use-style done
+    }
+    link "Editing" "Copy/Paste"
+    item "Diagram \nPosition widget" {
+        pos -190.650390625 81.0
+        color green
+    }
+    link "UI" "Diagram \nPosition widget" {
+        pos 6.0 5.0
+    }
+    item "Export" {
+        pos -439.650390625 -164.0
+        color lightgreen
+    }
+    link "UI" "Export" {
+        pos -6.0 7.0
+    }
+    item "Import" {
+        pos -503.9111328125 120.0
+    }
+    link "Model" "Import" {
+        pos 29.0 -21.0
+    }
+    item "Xmind" {
+        pos -655.4912109375 153.0
+    }
+    link "Import" "Xmind"
+    item "Other" {
+        pos -662.4912109375 120.0
+    }
+    link "Import" "Other"
+    item "JIRA CSV import" {
+        pos -652.4912109375 78.0
+    }
+    link "Import" "JIRA CSV import"
+    item "PDF" {
+        pos -497.546875 -141.0
+        color green
+    }
+    link "Export" "PDF"
+    item "PNG" {
+        pos -547.546875 -159.0
+        color green
+    }
+    link "Export" "PNG"
+    item "HTML" {
+        pos -505.546875 -183.0
+        color green
+    }
+    link "Export" "HTML"
+    item "Easy\nProperties" {
+        pos -20.365234375 -117.0
+        color green
+    }
+    item "quick actions" {
+        pos 51.646484375 -141.0
+        color green
+        font-size 12
+    }
+    link "Properties" "quick actions" {
+        display "arrow"
+    }
+    item "quick colors" {
+        pos 113.67578125 -179.0
+        font-size 12
+        color green
+    }
+    link "quick actions" "quick colors"
+    item "quick fonts" {
+        pos 25.67578125 -180.0
+        font-size 12
+        color green
+    }
+    link "quick actions" "quick fonts"
+    item "javascript" {
+        pos 99.615234375 161.0
+        color green
+    }
+    link "expr dsl" "javascript"
+    link "Properties" "Easy\nProperties" {
+        display "arrow"
+    }
+    item "SVG" {
+        pos -442.732421875 -131.0
+    }
+    link "Export" "SVG"
+    item "Color matches" {
+        pos -571.62890625 43.0
+        descr %{
+    "Need to property match text color if background are selected"
+}
+        use-style done
+    }
+    link "Scene Draw" "Color matches"
+    item "Markdown BODY" {
+        pos -93.900390625 -182.0
+        descr %{
+    0. Use %{ as markdown start and } as markdown end.
+    1. Embedd markdown like font capabilities inside.
+    2. *BOLD*
+    3. _Italic_.
+    4. Font size
+}
+        use-style done
+    }
+    link "Editing" "Markdown BODY"
+    item "Multi select" {
+        pos -215.3828125 -52.0
+        color green
+        use-style done
+    }
+    link "Selection" "Multi select"
+    link "Selection" "Multiple"
+    item "Display rulers" {
+        pos 129.291015625 55.0
+        font-size 12
+        use-style done
+    }
+    link "Movements" "Display rulers"
+    item "Aligh on XXX" {
+        pos -199.46054077148438 -209.0
+        use-style required
+    }
+    link "Layout" "Aligh on XXX"
+    item "Position calculation" {
+        pos 150.63711547851562 209.0
+    }
+    link "javascript" "Position calculation"
+    item "Under" {
+        pos -90.24336242675781 -112.0
+        use-style required
+    }
+    item "Layering" {
+        pos -386.3414001464844 -209.0
+        use-style required
+    }
+    link "UI" "Layering" {
+        pos -14.0 1.0
+    }
+    item "Front/Back" {
+        pos -347.56561279296875 -254.0
+        use-style required
+    }
+    link "Layering" "Front/Back"
+    link "Selection" "Under"
+    item "Markdown styles" {
+        pos -67.1617202758789 -227.0
+        use-style required
+    }
+    link "Markdown BODY" "Markdown styles"
+    item "Export options" {
+        pos -501.9254150390625 -218.0
+        use-style done
+    }
+    link "Export" "Export options"
+    item "Draw background" {
+        pos -526.5031127929688 -257.0
+        use-style done
+    }
+    link "Export options" "Draw background"
+    item "Documentation" {
+        pos 73.3324203491211 275.0
+        use-style required
+    }
+    link "Quality" "Documentation"
+}

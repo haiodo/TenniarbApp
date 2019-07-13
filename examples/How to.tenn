@@ -1,0 +1,121 @@
+element "How to" {
+    styles {
+        item {
+            shadow -5 -5
+        }
+    }
+    item "How to create a mind map" {
+        pos -180.328125 60.87109375
+        font-size 22
+        color green
+    }
+    item "Use color" {
+        pos -110.6587905883789 -19.12890625
+        color orange
+        marker "🔥"
+    }
+    link "How to create a mind map" "Use color"
+    item "Group your ideas" {
+        pos -124.14570617675781 -110.12890625
+        body "by using color"
+        color orange-100
+    }
+    link "Use color" "Group your ideas"
+    item "Share it" {
+        pos -299.3247985839844 13.87109375
+        color light-blue-100
+        marker "🌎"
+    }
+    link "How to create a mind map" "Share it"
+    item "Go deeper" {
+        pos -306.3247985839844 131.87109375
+        color green-200
+        marker "⌚️"
+    }
+    link "How to create a mind map" "Go deeper"
+    item "Every node on mindmap" {
+        pos -438.32440185546875 185.87109375
+        body "Could be its own mindmap"
+        color green-300
+    }
+    link "Go deeper" "Every node on mindmap"
+    item "Nobody is perfect" {
+        pos -144.32479858398438 158.87109375
+        color blue-400
+        marker "-😱-"
+    }
+    link "How to create a mind map" "Nobody is perfect"
+    item "Tidy up later" {
+        pos -14.696483612060547 242.87109375
+        font-size 12
+        color blue-500
+    }
+    link "Nobody is perfect" "Tidy up later"
+    item "Don't focus
+on perfection" {
+        pos -172.6964874267578 234.87109375
+        font-size 12
+        color blue-500
+    }
+    link "Nobody is perfect" "Don't focus
+on perfection"
+    item "Let's your ideas
+Explode!🧨" {
+        pos -98.69648742675781 284.87109375
+        font-size 12
+        color blue-500
+    }
+    link "Nobody is perfect" "Let's your ideas
+Explode!🧨"
+    item "Break the \"on the page\"" {
+        pos 112.7835922241211 105.87109375
+        color red-200
+        body "mentality"
+        marker "✂️"
+    }
+    link "How to create a mind map" "Break the \"on the page\""
+    item "Your brain isn't confined" {
+        pos 154.2205047607422 178.87109375
+        body "to one page"
+        color red-300
+    }
+    link "Break the \"on the page\"" "Your brain isn't confined"
+    item "So your mindmaps" {
+        pos 203.8322296142578 254.87109375
+        body "shouldn't be either."
+        color red-400
+    }
+    link "Your brain isn't confined" "So your mindmaps"
+    item "Don't take sides" {
+        pos 123.7835922241211 4.87109375
+        color purple-100
+    }
+    link "How to create a mind map" "Don't take sides"
+    item "Embrace both sides  of your brain" {
+        pos 103.86112976074219 -53.12890625
+        color purple-200
+    }
+    link "Don't take sides" "Embrace both sides  of your brain"
+    item "The Creative" {
+        pos 127.19257354736328 -110.12890625
+        color purple-400
+    }
+    link "Embrace both sides  of your brain" "The Creative"
+    item "The Analytical" {
+        pos 291.19256591796875 -111.12890625
+        color purple-400
+    }
+    link "Embrace both sides  of your brain" "The Analytical"
+    item "When you finish" {
+        pos -407.15740966796875 -63.12890625
+        body "Share it with your Collegues."
+        color light-blue-200
+    }
+    link "Share it" "When you finish"
+    item "This will help you." {
+        pos -419.0 -148.0
+        body "Get a fresh perspective."
+        color light-blue-300
+    }
+    link "When you finish" "This will help you."
+}

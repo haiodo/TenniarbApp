@@ -1,0 +1,211 @@
+element "Brainstorm" {
+    styles {
+        item {
+            shadow -5 -5
+        }
+    }
+    item "Brainstorm" {
+        pos -388.296875 57.37109375
+    }
+    item "Generating Ideas" {
+        pos -232.38436889648438 117.37109375
+        display circle
+        width 150
+        height 150
+        line-style dashed
+    }
+    link "Brainstorm" "Generating Ideas"
+    item "Organizing Your
+Thoughts" {
+        pos -241.38436889648438 -87.62890625
+        display circle
+        width 150
+        height 150
+        color blue
+    }
+    link "Brainstorm" "Organizing Your
+Thoughts"
+    item "Getting Over 
+Mental Block" {
+        pos -256.3843688964844 -257.62890625
+        display circle
+        width 150
+        height 150
+        font-size 18
+    }
+    link "Brainstorm" "Getting Over 
+Mental Block"
+    item "🚀Write down your goals and problems" {
+        pos -107.38436889648438 326.37109375
+    }
+    link "Generating Ideas" "🚀Write down your goals and problems" {
+        pos -36.0 36.0
+    }
+    item "Do word association" {
+        pos -71.38436889648438 262.37109375
+    }
+    link "Generating Ideas" "Do word association"
+    item "central idea" {
+        pos 108.18536376953125 291.37109375
+        font-size 12
+    }
+    link "Do word association" "central idea"
+    item "any related words" {
+        pos 121.18536376953125 258.37109375
+        font-size 12
+    }
+    link "Do word association" "any related words"
+    item "Freewrite" {
+        pos -33.384368896484375 214.37109375
+    }
+    link "Generating Ideas" "Freewrite"
+    item "Sit down for 15m" {
+        pos 67.61602020263672 223.37109375
+        font-size 12
+    }
+    link "Freewrite" "Sit down for 15m"
+    item "state your goal" {
+        pos 68.61602020263672 191.37109375
+        font-size 12
+    }
+    link "Freewrite" "state your goal" {
+        pos -24.0 -19.0
+    }
+    item "\"I want ...\"" {
+        pos 74.61602020263672 156.37109375
+        font-size 12
+    }
+    link "Freewrite" "\"I want ...\"" {
+        pos -17.0 -38.0
+    }
+    item "Draft a list" {
+        pos -58.384368896484375 137.37109375
+    }
+    link "Generating Ideas" "Draft a list" {
+        pos 66.0 -5.0
+    }
+    item "a list of every ideas" {
+        pos 66.71368408203125 123.37109375
+        font-size 12
+    }
+    link "Draft a list" "a list of every ideas"
+    item "Doodle pictures" {
+        pos -86.38436889648438 91.37109375
+    }
+    link "Generating Ideas" "Doodle pictures" {
+        pos -21.0 -44.0
+    }
+    item "draw as ideas come" {
+        pos 65.89434814453125 87.37109375
+        font-size 12
+    }
+    link "Doodle pictures" "draw as ideas come"
+    item "Write ideas down on notecards" {
+        pos -93.38436889648438 42.37109375
+    }
+    link "Organizing Your
+Thoughts" "Write ideas down on notecards"
+    item "Make a mind map" {
+        pos -61.0 1.37109375
+        marker "🤯"
+    }
+    link "Organizing Your
+Thoughts" "Make a mind map" {
+        pos -7.0 2.0
+    }
+    item "Break the problem down into individual steps" {
+        pos -68.38436889648438 -37.62890625
+    }
+    link "Organizing Your
+Thoughts" "Break the problem down into individual steps" {
+        pos -67.0 -9.0
+    }
+    item "Cube the problem" {
+        pos -69.38436889648438 -75.62890625
+    }
+    link "Organizing Your
+Thoughts" "Cube the problem" {
+        pos -10.0 -28.0
+    }
+    item "Describe the problem" {
+        pos 108.46368408203125 -72.62890625
+        font-size 12
+    }
+    link "Cube the problem" "Describe the problem"
+    item "Compare it to other situations" {
+        pos 113.46368408203125 -105.62890625
+        font-size 12
+    }
+    link "Cube the problem" "Compare it to other situations"
+    item "Associate the problem with similar topics" {
+        pos 111.46368408203125 -145.62890625
+        font-size 12
+    }
+    link "Cube the problem" "Associate the problem with similar topics" {
+        pos -22.0 -32.0
+    }
+    item "Analyze the problem and its solutions" {
+        pos 112.46368408203125 -176.62890625
+        font-size 12
+    }
+    link "Cube the problem" "Analyze the problem and its solutions" {
+        pos -89.0 -49.0
+    }
+    item "Apply it to real world situations" {
+        pos 115.46368408203125 -208.62890625
+        font-size 12
+    }
+    link "Cube the problem" "Apply it to real world situations" {
+        pos -87.0 -69.0
+    }
+    item "Argue for and against it" {
+        pos 116.46368408203125 -239.62890625
+        font-size 12
+    }
+    link "Cube the problem" "Argue for and against it" {
+        pos -77.0 -87.0
+    }
+    item "Go for a walk" {
+        pos -70.38436889648438 -291.62890625
+        marker "🚶🏻‍♂️"
+    }
+    link "Getting Over 
+Mental Block" "Go for a walk"
+    item "Take a break" {
+        pos -100.38436889648438 -369.62890625
+        marker "☕️"
+    }
+    link "Getting Over 
+Mental Block" "Take a break"
+    item "help boost creativity" {
+        pos 119.38555908203125 -290.62890625
+        font-size 12
+    }
+    link "Go for a walk" "help boost creativity"
+    item "get a snack🍿" {
+        pos 90.88751220703125 -343.62890625
+        font-size 12
+    }
+    link "Take a break" "get a snack🍿"
+    item "read a few news articles 🗞" {
+        pos 88.88751220703125 -380.62890625
+        font-size 12
+    }
+    link "Take a break" "read a few news articles 🗞"
+    item "make a phone call📞" {
+        pos 75.88751220703125 -419.62890625
+        font-size 12
+    }
+    link "Take a break" "make a phone call📞"
+    item "Talk to yourself" {
+        pos -148.38436889648438 -437.62890625
+    }
+    link "Getting Over 
+Mental Block" "Talk to yourself"
+    item "Listen to music" {
+        pos -335.3843994140625 -393.62890625
+        marker "🎧"
+    }
+    link "Getting Over 
+Mental Block" "Listen to music"
+}

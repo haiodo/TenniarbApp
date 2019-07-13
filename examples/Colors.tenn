@@ -1,0 +1,2182 @@
+element "Colors" {
+    item "red" {
+        pos -70.0 -35.0
+        color red
+        width 75
+        font-size 10
+        height 23
+    }
+    item "red-50" {
+        pos 10.0 -35.0
+        color #FFEBEE
+        width 35
+        font-size 10
+        height 23
+        title "50"
+    }
+    item "red-100" {
+        pos 50.0 -35.0
+        color #FFCDD2
+        width 35
+        font-size 10
+        height 23
+        title "100"
+    }
+    item "red-200" {
+        pos 90.0 -35.0
+        color #EF9A9A
+        width 35
+        font-size 10
+        height 23
+        title "200"
+    }
+    item "red-300" {
+        pos 130.0 -35.0
+        color #E57373
+        width 35
+        font-size 10
+        height 23
+        title "300"
+    }
+    item "red-400" {
+        pos 170.0 -35.0
+        color #EF5350
+        width 35
+        font-size 10
+        height 23
+        title "400"
+    }
+    item "red-500" {
+        pos 210.0 -35.0
+        color #F44336
+        width 35
+        font-size 10
+        height 23
+        title "500"
+    }
+    item "red-600" {
+        pos 250.0 -35.0
+        color #E53935
+        width 35
+        font-size 10
+        height 23
+        title "600"
+    }
+    item "red-700" {
+        pos 290.0 -35.0
+        color #D32F2F
+        width 35
+        font-size 10
+        height 23
+        title "700"
+    }
+    item "red-800" {
+        pos 330.0 -35.0
+        color #C62828
+        width 35
+        font-size 10
+        height 23
+        title "800"
+    }
+    item "red-900" {
+        pos 370.0 -35.0
+        color #B71C1C
+        width 35
+        font-size 10
+        height 23
+        title "900"
+    }
+    item "red-A100" {
+        pos 410.0 -35.0
+        color #FF8A80
+        width 35
+        font-size 10
+        height 23
+        title "A100"
+    }
+    item "red-A200" {
+        pos 450.0 -35.0
+        color #FF5252
+        width 35
+        font-size 10
+        height 23
+        title "A200"
+    }
+    item "red-A400" {
+        pos 490.0 -35.0
+        color #FF1744
+        width 35
+        font-size 10
+        height 23
+        title "A400"
+    }
+    item "red-A700" {
+        pos 530.0 -35.0
+        color #D50000
+        width 35
+        font-size 10
+        height 23
+        title "A700"
+    }
+    item "pink" {
+        pos -70.0 -60.0
+        color pink
+        width 75
+        font-size 10
+        height 23
+    }
+    item "pink-50" {
+        pos 10.0 -60.0
+        color #FCE4EC
+        width 35
+        font-size 10
+        height 23
+        title "50"
+    }
+    item "pink-100" {
+        pos 50.0 -60.0
+        color #F8BBD0
+        width 35
+        font-size 10
+        height 23
+        title "100"
+    }
+    item "pink-200" {
+        pos 90.0 -60.0
+        color #F48FB1
+        width 35
+        font-size 10
+        height 23
+        title "200"
+    }
+    item "pink-300" {
+        pos 130.0 -60.0
+        color #F06292
+        width 35
+        font-size 10
+        height 23
+        title "300"
+    }
+    item "pink-400" {
+        pos 170.0 -60.0
+        color #EC407A
+        width 35
+        font-size 10
+        height 23
+        title "400"
+    }
+    item "pink-500" {
+        pos 210.0 -60.0
+        color #E91E63
+        width 35
+        font-size 10
+        height 23
+        title "500"
+    }
+    item "pink-600" {
+        pos 250.0 -60.0
+        color #D81B60
+        width 35
+        font-size 10
+        height 23
+        title "600"
+    }
+    item "pink-700" {
+        pos 290.0 -60.0
+        color #C2185B
+        width 35
+        font-size 10
+        height 23
+        title "700"
+    }
+    item "pink-800" {
+        pos 330.0 -60.0
+        color #AD1457
+        width 35
+        font-size 10
+        height 23
+        title "800"
+    }
+    item "pink-900" {
+        pos 370.0 -60.0
+        color #880E4F
+        width 35
+        font-size 10
+        height 23
+        title "900"
+    }
+    item "pink-A100" {
+        pos 410.0 -60.0
+        color #FF80AB
+        width 35
+        font-size 10
+        height 23
+        title "A100"
+    }
+    item "pink-A200" {
+        pos 450.0 -60.0
+        color #FF4081
+        width 35
+        font-size 10
+        height 23
+        title "A200"
+    }
+    item "pink-A400" {
+        pos 490.0 -60.0
+        color #F50057
+        width 35
+        font-size 10
+        height 23
+        title "A400"
+    }
+    item "pink-A700" {
+        pos 530.0 -60.0
+        color #C51162
+        width 35
+        font-size 10
+        height 23
+        title "A700"
+    }
+    item "purple" {
+        pos -70.0 -85.0
+        color purple
+        width 75
+        font-size 10
+        height 23
+    }
+    item "purple-50" {
+        pos 10.0 -85.0
+        color #F3E5F5
+        width 35
+        font-size 10
+        height 23
+        title "50"
+    }
+    item "purple-100" {
+        pos 50.0 -85.0
+        color #E1BEE7
+        width 35
+        font-size 10
+        height 23
+        title "100"
+    }
+    item "purple-200" {
+        pos 90.0 -85.0
+        color #CE93D8
+        width 35
+        font-size 10
+        height 23
+        title "200"
+    }
+    item "purple-300" {
+        pos 130.0 -85.0
+        color #BA68C8
+        width 35
+        font-size 10
+        height 23
+        title "300"
+    }
+    item "purple-400" {
+        pos 170.0 -85.0
+        color #AB47BC
+        width 35
+        font-size 10
+        height 23
+        title "400"
+    }
+    item "purple-500" {
+        pos 210.0 -85.0
+        color #9C27B0
+        width 35
+        font-size 10
+        height 23
+        title "500"
+    }
+    item "purple-600" {
+        pos 250.0 -85.0
+        color #8E24AA
+        width 35
+        font-size 10
+        height 23
+        title "600"
+    }
+    item "purple-700" {
+        pos 290.0 -85.0
+        color #7B1FA2
+        width 35
+        font-size 10
+        height 23
+        title "700"
+    }
+    item "purple-800" {
+        pos 330.0 -85.0
+        color #6A1B9A
+        width 35
+        font-size 10
+        height 23
+        title "800"
+    }
+    item "purple-900" {
+        pos 370.0 -85.0
+        color #4A148C
+        width 35
+        font-size 10
+        height 23
+        title "900"
+    }
+    item "purple-A100" {
+        pos 410.0 -85.0
+        color #EA80FC
+        width 35
+        font-size 10
+        height 23
+        title "A100"
+    }
+    item "purple-A200" {
+        pos 450.0 -85.0
+        color #E040FB
+        width 35
+        font-size 10
+        height 23
+        title "A200"
+    }
+    item "purple-A400" {
+        pos 490.0 -85.0
+        color #D500F9
+        width 35
+        font-size 10
+        height 23
+        title "A400"
+    }
+    item "purple-A700" {
+        pos 530.0 -85.0
+        color #AA00FF
+        width 35
+        font-size 10
+        height 23
+        title "A700"
+    }
+    item "deeppurple" {
+        pos -70.0 -110.0
+        color deeppurple
+        width 75
+        font-size 10
+        height 23
+    }
+    item "deep-purple-50" {
+        pos 10.0 -110.0
+        color #EDE7F6
+        width 35
+        font-size 10
+        height 23
+        title "50"
+    }
+    item "deep-purple-100" {
+        pos 50.0 -110.0
+        color #D1C4E9
+        width 35
+        font-size 10
+        height 23
+        title "100"
+    }
+    item "deep-purple-200" {
+        pos 90.0 -110.0
+        color #B39DDB
+        width 35
+        font-size 10
+        height 23
+        title "200"
+    }
+    item "deep-purple-300" {
+        pos 130.0 -110.0
+        color #9575CD
+        width 35
+        font-size 10
+        height 23
+        title "300"
+    }
+    item "deep-purple-400" {
+        pos 170.0 -110.0
+        color #7E57C2
+        width 35
+        font-size 10
+        height 23
+        title "400"
+    }
+    item "deep-purple-500" {
+        pos 210.0 -110.0
+        color #673AB7
+        width 35
+        font-size 10
+        height 23
+        title "500"
+    }
+    item "deep-purple-600" {
+        pos 250.0 -110.0
+        color #5E35B1
+        width 35
+        font-size 10
+        height 23
+        title "600"
+    }
+    item "deep-purple-700" {
+        pos 290.0 -110.0
+        color #512DA8
+        width 35
+        font-size 10
+        height 23
+        title "700"
+    }
+    item "deep-purple-800" {
+        pos 330.0 -110.0
+        color #4527A0
+        width 35
+        font-size 10
+        height 23
+        title "800"
+    }
+    item "deep-purple-900" {
+        pos 370.0 -110.0
+        color #311B92
+        width 35
+        font-size 10
+        height 23
+        title "900"
+    }
+    item "deep-purple-A100" {
+        pos 410.0 -110.0
+        color #B388FF
+        width 35
+        font-size 10
+        height 23
+        title "A100"
+    }
+    item "deep-purple-A200" {
+        pos 450.0 -110.0
+        color #7C4DFF
+        width 35
+        font-size 10
+        height 23
+        title "A200"
+    }
+    item "deep-purple-A400" {
+        pos 490.0 -110.0
+        color #651FFF
+        width 35
+        font-size 10
+        height 23
+        title "A400"
+    }
+    item "deep-purple-A700" {
+        pos 530.0 -110.0
+        color #6200EA
+        width 35
+        font-size 10
+        height 23
+        title "A700"
+    }
+    item "indigo" {
+        pos -70.0 -135.0
+        color indigo
+        width 75
+        font-size 10
+        height 23
+    }
+    item "indigo-50" {
+        pos 10.0 -135.0
+        color #E8EAF6
+        width 35
+        font-size 10
+        height 23
+        title "50"
+    }
+    item "indigo-100" {
+        pos 50.0 -135.0
+        color #C5CAE9
+        width 35
+        font-size 10
+        height 23
+        title "100"
+    }
+    item "indigo-200" {
+        pos 90.0 -135.0
+        color #9FA8DA
+        width 35
+        font-size 10
+        height 23
+        title "200"
+    }
+    item "indigo-300" {
+        pos 130.0 -135.0
+        color #7986CB
+        width 35
+        font-size 10
+        height 23
+        title "300"
+    }
+    item "indigo-400" {
+        pos 170.0 -135.0
+        color #5C6BC0
+        width 35
+        font-size 10
+        height 23
+        title "400"
+    }
+    item "indigo-500" {
+        pos 210.0 -135.0
+        color #3F51B5
+        width 35
+        font-size 10
+        height 23
+        title "500"
+    }
+    item "indigo-600" {
+        pos 250.0 -135.0
+        color #3949AB
+        width 35
+        font-size 10
+        height 23
+        title "600"
+    }
+    item "indigo-700" {
+        pos 290.0 -135.0
+        color #303F9F
+        width 35
+        font-size 10
+        height 23
+        title "700"
+    }
+    item "indigo-800" {
+        pos 330.0 -135.0
+        color #283593
+        width 35
+        font-size 10
+        height 23
+        title "800"
+    }
+    item "indigo-900" {
+        pos 370.0 -135.0
+        color #1A237E
+        width 35
+        font-size 10
+        height 23
+        title "900"
+    }
+    item "indigo-A100" {
+        pos 410.0 -135.0
+        color #8C9EFF
+        width 35
+        font-size 10
+        height 23
+        title "A100"
+    }
+    item "indigo-A200" {
+        pos 450.0 -135.0
+        color #536DFE
+        width 35
+        font-size 10
+        height 23
+        title "A200"
+    }
+    item "indigo-A400" {
+        pos 490.0 -135.0
+        color #3D5AFE
+        width 35
+        font-size 10
+        height 23
+        title "A400"
+    }
+    item "indigo-A700" {
+        pos 530.0 -135.0
+        color #304FFE
+        width 35
+        font-size 10
+        height 23
+        title "A700"
+    }
+    item "blue" {
+        pos -70.0 -160.0
+        color blue
+        width 75
+        font-size 10
+        height 23
+    }
+    item "blue-50" {
+        pos 10.0 -160.0
+        color #E3F2FD
+        width 35
+        font-size 10
+        height 23
+        title "50"
+    }
+    item "blue-100" {
+        pos 50.0 -160.0
+        color #BBDEFB
+        width 35
+        font-size 10
+        height 23
+        title "100"
+    }
+    item "blue-200" {
+        pos 90.0 -160.0
+        color #90CAF9
+        width 35
+        font-size 10
+        height 23
+        title "200"
+    }
+    item "blue-300" {
+        pos 130.0 -160.0
+        color #64B5F6
+        width 35
+        font-size 10
+        height 23
+        title "300"
+    }
+    item "blue-400" {
+        pos 170.0 -160.0
+        color #42A5F5
+        width 35
+        font-size 10
+        height 23
+        title "400"
+    }
+    item "blue-500" {
+        pos 210.0 -160.0
+        color #2196F3
+        width 35
+        font-size 10
+        height 23
+        title "500"
+    }
+    item "blue-600" {
+        pos 250.0 -160.0
+        color #1E88E5
+        width 35
+        font-size 10
+        height 23
+        title "600"
+    }
+    item "blue-700" {
+        pos 290.0 -160.0
+        color #1976D2
+        width 35
+        font-size 10
+        height 23
+        title "700"
+    }
+    item "blue-800" {
+        pos 330.0 -160.0
+        color #1565C0
+        width 35
+        font-size 10
+        height 23
+        title "800"
+    }
+    item "blue-900" {
+        pos 370.0 -160.0
+        color #0D47A1
+        width 35
+        font-size 10
+        height 23
+        title "900"
+    }
+    item "blue-A100" {
+        pos 410.0 -160.0
+        color #82B1FF
+        width 35
+        font-size 10
+        height 23
+        title "A100"
+    }
+    item "blue-A200" {
+        pos 450.0 -160.0
+        color #448AFF
+        width 35
+        font-size 10
+        height 23
+        title "A200"
+    }
+    item "blue-A400" {
+        pos 490.0 -160.0
+        color #2979FF
+        width 35
+        font-size 10
+        height 23
+        title "A400"
+    }
+    item "blue-A700" {
+        pos 530.0 -160.0
+        color #2962FF
+        width 35
+        font-size 10
+        height 23
+        title "A700"
+    }
+    item "lightblue" {
+        pos -70.0 -185.0
+        color lightblue
+        width 75
+        font-size 10
+        height 23
+    }
+    item "light-blue-50" {
+        pos 10.0 -185.0
+        color #E1F5FE
+        width 35
+        font-size 10
+        height 23
+        title "50"
+    }
+    item "light-blue-100" {
+        pos 50.0 -185.0
+        color #B3E5FC
+        width 35
+        font-size 10
+        height 23
+        title "100"
+    }
+    item "light-blue-200" {
+        pos 90.0 -185.0
+        color #81D4FA
+        width 35
+        font-size 10
+        height 23
+        title "200"
+    }
+    item "light-blue-300" {
+        pos 130.0 -185.0
+        color #4FC3F7
+        width 35
+        font-size 10
+        height 23
+        title "300"
+    }
+    item "light-blue-400" {
+        pos 170.0 -185.0
+        color #29B6F6
+        width 35
+        font-size 10
+        height 23
+        title "400"
+    }
+    item "light-blue-500" {
+        pos 210.0 -185.0
+        color #03A9F4
+        width 35
+        font-size 10
+        height 23
+        title "500"
+    }
+    item "light-blue-600" {
+        pos 250.0 -185.0
+        color #039BE5
+        width 35
+        font-size 10
+        height 23
+        title "600"
+    }
+    item "light-blue-700" {
+        pos 290.0 -185.0
+        color #0288D1
+        width 35
+        font-size 10
+        height 23
+        title "700"
+    }
+    item "light-blue-800" {
+        pos 330.0 -185.0
+        color #0277BD
+        width 35
+        font-size 10
+        height 23
+        title "800"
+    }
+    item "light-blue-900" {
+        pos 370.0 -185.0
+        color #01579B
+        width 35
+        font-size 10
+        height 23
+        title "900"
+    }
+    item "light-blue-A100" {
+        pos 410.0 -185.0
+        color #80D8FF
+        width 35
+        font-size 10
+        height 23
+        title "A100"
+    }
+    item "light-blue-A200" {
+        pos 450.0 -185.0
+        color #40C4FF
+        width 35
+        font-size 10
+        height 23
+        title "A200"
+    }
+    item "light-blue-A400" {
+        pos 490.0 -185.0
+        color #00B0FF
+        width 35
+        font-size 10
+        height 23
+        title "A400"
+    }
+    item "light-blue-A700" {
+        pos 530.0 -185.0
+        color #0091EA
+        width 35
+        font-size 10
+        height 23
+        title "A700"
+    }
+    item "cyan" {
+        pos -70.0 -210.0
+        color cyan
+        width 75
+        font-size 10
+        height 23
+    }
+    item "cyan-50" {
+        pos 10.0 -210.0
+        color #E0F7FA
+        width 35
+        font-size 10
+        height 23
+        title "50"
+    }
+    item "cyan-100" {
+        pos 50.0 -210.0
+        color #B2EBF2
+        width 35
+        font-size 10
+        height 23
+        title "100"
+    }
+    item "cyan-200" {
+        pos 90.0 -210.0
+        color #80DEEA
+        width 35
+        font-size 10
+        height 23
+        title "200"
+    }
+    item "cyan-300" {
+        pos 130.0 -210.0
+        color #4DD0E1
+        width 35
+        font-size 10
+        height 23
+        title "300"
+    }
+    item "cyan-400" {
+        pos 170.0 -210.0
+        color #26C6DA
+        width 35
+        font-size 10
+        height 23
+        title "400"
+    }
+    item "cyan-500" {
+        pos 210.0 -210.0
+        color #00BCD4
+        width 35
+        font-size 10
+        height 23
+        title "500"
+    }
+    item "cyan-600" {
+        pos 250.0 -210.0
+        color #00ACC1
+        width 35
+        font-size 10
+        height 23
+        title "600"
+    }
+    item "cyan-700" {
+        pos 290.0 -210.0
+        color #0097A7
+        width 35
+        font-size 10
+        height 23
+        title "700"
+    }
+    item "cyan-800" {
+        pos 330.0 -210.0
+        color #00838F
+        width 35
+        font-size 10
+        height 23
+        title "800"
+    }
+    item "cyan-900" {
+        pos 370.0 -210.0
+        color #006064
+        width 35
+        font-size 10
+        height 23
+        title "900"
+    }
+    item "cyan-A100" {
+        pos 410.0 -210.0
+        color #84FFFF
+        width 35
+        font-size 10
+        height 23
+        title "A100"
+    }
+    item "cyan-A200" {
+        pos 450.0 -210.0
+        color #18FFFF
+        width 35
+        font-size 10
+        height 23
+        title "A200"
+    }
+    item "cyan-A400" {
+        pos 490.0 -210.0
+        color #00E5FF
+        width 35
+        font-size 10
+        height 23
+        title "A400"
+    }
+    item "cyan-A700" {
+        pos 530.0 -210.0
+        color #00B8D4
+        width 35
+        font-size 10
+        height 23
+        title "A700"
+    }
+    item "teal" {
+        pos -70.0 -235.0
+        color teal
+        width 75
+        font-size 10
+        height 23
+    }
+    item "teal-50" {
+        pos 10.0 -235.0
+        color #E0F2F1
+        width 35
+        font-size 10
+        height 23
+        title "50"
+    }
+    item "teal-100" {
+        pos 50.0 -235.0
+        color #B2DFDB
+        width 35
+        font-size 10
+        height 23
+        title "100"
+    }
+    item "teal-200" {
+        pos 90.0 -235.0
+        color #80CBC4
+        width 35
+        font-size 10
+        height 23
+        title "200"
+    }
+    item "teal-300" {
+        pos 130.0 -235.0
+        color #4DB6AC
+        width 35
+        font-size 10
+        height 23
+        title "300"
+    }
+    item "teal-400" {
+        pos 170.0 -235.0
+        color #26A69A
+        width 35
+        font-size 10
+        height 23
+        title "400"
+    }
+    item "teal-500" {
+        pos 210.0 -235.0
+        color #009688
+        width 35
+        font-size 10
+        height 23
+        title "500"
+    }
+    item "teal-600" {
+        pos 250.0 -235.0
+        color #00897B
+        width 35
+        font-size 10
+        height 23
+        title "600"
+    }
+    item "teal-700" {
+        pos 290.0 -235.0
+        color #00796B
+        width 35
+        font-size 10
+        height 23
+        title "700"
+    }
+    item "teal-800" {
+        pos 330.0 -235.0
+        color #00695C
+        width 35
+        font-size 10
+        height 23
+        title "800"
+    }
+    item "teal-900" {
+        pos 370.0 -235.0
+        color #004D40
+        width 35
+        font-size 10
+        height 23
+        title "900"
+    }
+    item "teal-A100" {
+        pos 410.0 -235.0
+        color #A7FFEB
+        width 35
+        font-size 10
+        height 23
+        title "A100"
+    }
+    item "teal-A200" {
+        pos 450.0 -235.0
+        color #64FFDA
+        width 35
+        font-size 10
+        height 23
+        title "A200"
+    }
+    item "teal-A400" {
+        pos 490.0 -235.0
+        color #1DE9B6
+        width 35
+        font-size 10
+        height 23
+        title "A400"
+    }
+    item "teal-A700" {
+        pos 530.0 -235.0
+        color #00BFA5
+        width 35
+        font-size 10
+        height 23
+        title "A700"
+    }
+    item "green" {
+        pos -70.0 -260.0
+        color green
+        width 75
+        font-size 10
+        height 23
+    }
+    item "green-50" {
+        pos 10.0 -260.0
+        color #E8F5E9
+        width 35
+        font-size 10
+        height 23
+        title "50"
+    }
+    item "green-100" {
+        pos 50.0 -260.0
+        color #C8E6C9
+        width 35
+        font-size 10
+        height 23
+        title "100"
+    }
+    item "green-200" {
+        pos 90.0 -260.0
+        color #A5D6A7
+        width 35
+        font-size 10
+        height 23
+        title "200"
+    }
+    item "green-300" {
+        pos 130.0 -260.0
+        color #81C784
+        width 35
+        font-size 10
+        height 23
+        title "300"
+    }
+    item "green-400" {
+        pos 170.0 -260.0
+        color #66BB6A
+        width 35
+        font-size 10
+        height 23
+        title "400"
+    }
+    item "green-500" {
+        pos 210.0 -260.0
+        color #4CAF50
+        width 35
+        font-size 10
+        height 23
+        title "500"
+    }
+    item "green-600" {
+        pos 250.0 -260.0
+        color #43A047
+        width 35
+        font-size 10
+        height 23
+        title "600"
+    }
+    item "green-700" {
+        pos 290.0 -260.0
+        color #388E3C
+        width 35
+        font-size 10
+        height 23
+        title "700"
+    }
+    item "green-800" {
+        pos 330.0 -260.0
+        color #2E7D32
+        width 35
+        font-size 10
+        height 23
+        title "800"
+    }
+    item "green-900" {
+        pos 370.0 -260.0
+        color #1B5E20
+        width 35
+        font-size 10
+        height 23
+        title "900"
+    }
+    item "green-A100" {
+        pos 410.0 -260.0
+        color #B9F6CA
+        width 35
+        font-size 10
+        height 23
+        title "A100"
+    }
+    item "green-A200" {
+        pos 450.0 -260.0
+        color #69F0AE
+        width 35
+        font-size 10
+        height 23
+        title "A200"
+    }
+    item "green-A400" {
+        pos 490.0 -260.0
+        color #00E676
+        width 35
+        font-size 10
+        height 23
+        title "A400"
+    }
+    item "green-A700" {
+        pos 530.0 -260.0
+        color #00C853
+        width 35
+        font-size 10
+        height 23
+        title "A700"
+    }
+    item "lightgreen" {
+        pos -70.0 -285.0
+        color lightgreen
+        width 75
+        font-size 10
+        height 23
+    }
+    item "light-green-50" {
+        pos 10.0 -285.0
+        color #F1F8E9
+        width 35
+        font-size 10
+        height 23
+        title "50"
+    }
+    item "light-green-100" {
+        pos 50.0 -285.0
+        color #DCEDC8
+        width 35
+        font-size 10
+        height 23
+        title "100"
+    }
+    item "light-green-200" {
+        pos 90.0 -285.0
+        color #C5E1A5
+        width 35
+        font-size 10
+        height 23
+        title "200"
+    }
+    item "light-green-300" {
+        pos 130.0 -285.0
+        color #AED581
+        width 35
+        font-size 10
+        height 23
+        title "300"
+    }
+    item "light-green-400" {
+        pos 170.0 -285.0
+        color #9CCC65
+        width 35
+        font-size 10
+        height 23
+        title "400"
+    }
+    item "light-green-500" {
+        pos 210.0 -285.0
+        color #8BC34A
+        width 35
+        font-size 10
+        height 23
+        title "500"
+    }
+    item "light-green-600" {
+        pos 250.0 -285.0
+        color #7CB342
+        width 35
+        font-size 10
+        height 23
+        title "600"
+    }
+    item "light-green-700" {
+        pos 290.0 -285.0
+        color #689F38
+        width 35
+        font-size 10
+        height 23
+        title "700"
+    }
+    item "light-green-800" {
+        pos 330.0 -285.0
+        color #558B2F
+        width 35
+        font-size 10
+        height 23
+        title "800"
+    }
+    item "light-green-900" {
+        pos 370.0 -285.0
+        color #33691E
+        width 35
+        font-size 10
+        height 23
+        title "900"
+    }
+    item "light-green-A100" {
+        pos 410.0 -285.0
+        color #CCFF90
+        width 35
+        font-size 10
+        height 23
+        title "A100"
+    }
+    item "light-green-A200" {
+        pos 450.0 -285.0
+        color #B2FF59
+        width 35
+        font-size 10
+        height 23
+        title "A200"
+    }
+    item "light-green-A400" {
+        pos 490.0 -285.0
+        color #76FF03
+        width 35
+        font-size 10
+        height 23
+        title "A400"
+    }
+    item "light-green-A700" {
+        pos 530.0 -285.0
+        color #64DD17
+        width 35
+        font-size 10
+        height 23
+        title "A700"
+    }
+    item "lime" {
+        pos -70.0 -310.0
+        color lime
+        width 75
+        font-size 10
+        height 23
+    }
+    item "lime-50" {
+        pos 10.0 -310.0
+        color #F9FBE7
+        width 35
+        font-size 10
+        height 23
+        title "50"
+    }
+    item "lime-100" {
+        pos 50.0 -310.0
+        color #F0F4C3
+        width 35
+        font-size 10
+        height 23
+        title "100"
+    }
+    item "lime-200" {
+        pos 90.0 -310.0
+        color #E6EE9C
+        width 35
+        font-size 10
+        height 23
+        title "200"
+    }
+    item "lime-300" {
+        pos 130.0 -310.0
+        color #DCE775
+        width 35
+        font-size 10
+        height 23
+        title "300"
+    }
+    item "lime-400" {
+        pos 170.0 -310.0
+        color #D4E157
+        width 35
+        font-size 10
+        height 23
+        title "400"
+    }
+    item "lime-500" {
+        pos 210.0 -310.0
+        color #CDDC39
+        width 35
+        font-size 10
+        height 23
+        title "500"
+    }
+    item "lime-600" {
+        pos 250.0 -310.0
+        color #C0CA33
+        width 35
+        font-size 10
+        height 23
+        title "600"
+    }
+    item "lime-700" {
+        pos 290.0 -310.0
+        color #AFB42B
+        width 35
+        font-size 10
+        height 23
+        title "700"
+    }
+    item "lime-800" {
+        pos 330.0 -310.0
+        color #9E9D24
+        width 35
+        font-size 10
+        height 23
+        title "800"
+    }
+    item "lime-900" {
+        pos 370.0 -310.0
+        color #827717
+        width 35
+        font-size 10
+        height 23
+        title "900"
+    }
+    item "lime-A100" {
+        pos 410.0 -310.0
+        color #F4FF81
+        width 35
+        font-size 10
+        height 23
+        title "A100"
+    }
+    item "lime-A200" {
+        pos 450.0 -310.0
+        color #EEFF41
+        width 35
+        font-size 10
+        height 23
+        title "A200"
+    }
+    item "lime-A400" {
+        pos 490.0 -310.0
+        color #C6FF00
+        width 35
+        font-size 10
+        height 23
+        title "A400"
+    }
+    item "lime-A700" {
+        pos 530.0 -310.0
+        color #AEEA00
+        width 35
+        font-size 10
+        height 23
+        title "A700"
+    }
+    item "yellow" {
+        pos -70.0 -335.0
+        color yellow
+        width 75
+        font-size 10
+        height 23
+    }
+    item "yellow-50" {
+        pos 10.0 -335.0
+        color #FFFDE7
+        width 35
+        font-size 10
+        height 23
+        title "50"
+    }
+    item "yellow-100" {
+        pos 50.0 -335.0
+        color #FFF9C4
+        width 35
+        font-size 10
+        height 23
+        title "100"
+    }
+    item "yellow-200" {
+        pos 90.0 -335.0
+        color #FFF59D
+        width 35
+        font-size 10
+        height 23
+        title "200"
+    }
+    item "yellow-300" {
+        pos 130.0 -335.0
+        color #FFF176
+        width 35
+        font-size 10
+        height 23
+        title "300"
+    }
+    item "yellow-400" {
+        pos 170.0 -335.0
+        color #FFEE58
+        width 35
+        font-size 10
+        height 23
+        title "400"
+    }
+    item "yellow-500" {
+        pos 210.0 -335.0
+        color #FFEB3B
+        width 35
+        font-size 10
+        height 23
+        title "500"
+    }
+    item "yellow-600" {
+        pos 250.0 -335.0
+        color #FDD835
+        width 35
+        font-size 10
+        height 23
+        title "600"
+    }
+    item "yellow-700" {
+        pos 290.0 -335.0
+        color #FBC02D
+        width 35
+        font-size 10
+        height 23
+        title "700"
+    }
+    item "yellow-800" {
+        pos 330.0 -335.0
+        color #F9A825
+        width 35
+        font-size 10
+        height 23
+        title "800"
+    }
+    item "yellow-900" {
+        pos 370.0 -335.0
+        color #F57F17
+        width 35
+        font-size 10
+        height 23
+        title "900"
+    }
+    item "yellow-A100" {
+        pos 410.0 -335.0
+        color #FFFF8D
+        width 35
+        font-size 10
+        height 23
+        title "A100"
+    }
+    item "yellow-A200" {
+        pos 450.0 -335.0
+        color #FFFF00
+        width 35
+        font-size 10
+        height 23
+        title "A200"
+    }
+    item "yellow-A400" {
+        pos 490.0 -335.0
+        color #FFEA00
+        width 35
+        font-size 10
+        height 23
+        title "A400"
+    }
+    item "yellow-A700" {
+        pos 530.0 -335.0
+        color #FFD600
+        width 35
+        font-size 10
+        height 23
+        title "A700"
+    }
+    item "amber" {
+        pos -70.0 -360.0
+        color amber
+        width 75
+        font-size 10
+        height 23
+    }
+    item "amber-50" {
+        pos 10.0 -360.0
+        color #FFF8E1
+        width 35
+        font-size 10
+        height 23
+        title "50"
+    }
+    item "amber-100" {
+        pos 50.0 -360.0
+        color #FFECB3
+        width 35
+        font-size 10
+        height 23
+        title "100"
+    }
+    item "amber-200" {
+        pos 90.0 -360.0
+        color #FFE082
+        width 35
+        font-size 10
+        height 23
+        title "200"
+    }
+    item "amber-300" {
+        pos 130.0 -360.0
+        color #FFD54F
+        width 35
+        font-size 10
+        height 23
+        title "300"
+    }
+    item "amber-400" {
+        pos 170.0 -360.0
+        color #FFCA28
+        width 35
+        font-size 10
+        height 23
+        title "400"
+    }
+    item "amber-500" {
+        pos 210.0 -360.0
+        color #FFC107
+        width 35
+        font-size 10
+        height 23
+        title "500"
+    }
+    item "amber-600" {
+        pos 250.0 -360.0
+        color #FFB300
+        width 35
+        font-size 10
+        height 23
+        title "600"
+    }
+    item "amber-700" {
+        pos 290.0 -360.0
+        color #FFA000
+        width 35
+        font-size 10
+        height 23
+        title "700"
+    }
+    item "amber-800" {
+        pos 330.0 -360.0
+        color #FF8F00
+        width 35
+        font-size 10
+        height 23
+        title "800"
+    }
+    item "amber-900" {
+        pos 370.0 -360.0
+        color #FF6F00
+        width 35
+        font-size 10
+        height 23
+        title "900"
+    }
+    item "amber-A100" {
+        pos 410.0 -360.0
+        color #FFE57F
+        width 35
+        font-size 10
+        height 23
+        title "A100"
+    }
+    item "amber-A200" {
+        pos 450.0 -360.0
+        color #FFD740
+        width 35
+        font-size 10
+        height 23
+        title "A200"
+    }
+    item "amber-A400" {
+        pos 490.0 -360.0
+        color #FFC400
+        width 35
+        font-size 10
+        height 23
+        title "A400"
+    }
+    item "amber-A700" {
+        pos 530.0 -360.0
+        color #FFAB00
+        width 35
+        font-size 10
+        height 23
+        title "A700"
+    }
+    item "orange" {
+        pos -70.0 -385.0
+        color orange
+        width 75
+        font-size 10
+        height 23
+    }
+    item "orange-50" {
+        pos 10.0 -385.0
+        color #FFF3E0
+        width 35
+        font-size 10
+        height 23
+        title "50"
+    }
+    item "orange-100" {
+        pos 50.0 -385.0
+        color #FFE0B2
+        width 35
+        font-size 10
+        height 23
+        title "100"
+    }
+    item "orange-200" {
+        pos 90.0 -385.0
+        color #FFCC80
+        width 35
+        font-size 10
+        height 23
+        title "200"
+    }
+    item "orange-300" {
+        pos 130.0 -385.0
+        color #FFB74D
+        width 35
+        font-size 10
+        height 23
+        title "300"
+    }
+    item "orange-400" {
+        pos 170.0 -385.0
+        color #FFA726
+        width 35
+        font-size 10
+        height 23
+        title "400"
+    }
+    item "orange-500" {
+        pos 210.0 -385.0
+        color #FF9800
+        width 35
+        font-size 10
+        height 23
+        title "500"
+    }
+    item "orange-600" {
+        pos 250.0 -385.0
+        color #FB8C00
+        width 35
+        font-size 10
+        height 23
+        title "600"
+    }
+    item "orange-700" {
+        pos 290.0 -385.0
+        color #F57C00
+        width 35
+        font-size 10
+        height 23
+        title "700"
+    }
+    item "orange-800" {
+        pos 330.0 -385.0
+        color #EF6C00
+        width 35
+        font-size 10
+        height 23
+        title "800"
+    }
+    item "orange-900" {
+        pos 370.0 -385.0
+        color #E65100
+        width 35
+        font-size 10
+        height 23
+        title "900"
+    }
+    item "orange-A100" {
+        pos 410.0 -385.0
+        color #FFD180
+        width 35
+        font-size 10
+        height 23
+        title "A100"
+    }
+    item "orange-A200" {
+        pos 450.0 -385.0
+        color #FFAB40
+        width 35
+        font-size 10
+        height 23
+        title "A200"
+    }
+    item "orange-A400" {
+        pos 490.0 -385.0
+        color #FF9100
+        width 35
+        font-size 10
+        height 23
+        title "A400"
+    }
+    item "orange-A700" {
+        pos 530.0 -385.0
+        color #FF6D00
+        width 35
+        font-size 10
+        height 23
+        title "A700"
+    }
+    item "deeporange" {
+        pos -70.0 -410.0
+        color deeporange
+        width 75
+        font-size 10
+        height 23
+    }
+    item "deep-orange-50" {
+        pos 10.0 -410.0
+        color #FBE9E7
+        width 35
+        font-size 10
+        height 23
+        title "50"
+    }
+    item "deep-orange-100" {
+        pos 50.0 -410.0
+        color #FFCCBC
+        width 35
+        font-size 10
+        height 23
+        title "100"
+    }
+    item "deep-orange-200" {
+        pos 90.0 -410.0
+        color #FFAB91
+        width 35
+        font-size 10
+        height 23
+        title "200"
+    }
+    item "deep-orange-300" {
+        pos 130.0 -410.0
+        color #FF8A65
+        width 35
+        font-size 10
+        height 23
+        title "300"
+    }
+    item "deep-orange-400" {
+        pos 170.0 -410.0
+        color #FF7043
+        width 35
+        font-size 10
+        height 23
+        title "400"
+    }
+    item "deep-orange-500" {
+        pos 210.0 -410.0
+        color #FF5722
+        width 35
+        font-size 10
+        height 23
+        title "500"
+    }
+    item "deep-orange-600" {
+        pos 250.0 -410.0
+        color #F4511E
+        width 35
+        font-size 10
+        height 23
+        title "600"
+    }
+    item "deep-orange-700" {
+        pos 290.0 -410.0
+        color #E64A19
+        width 35
+        font-size 10
+        height 23
+        title "700"
+    }
+    item "deep-orange-800" {
+        pos 330.0 -410.0
+        color #D84315
+        width 35
+        font-size 10
+        height 23
+        title "800"
+    }
+    item "deep-orange-900" {
+        pos 370.0 -410.0
+        color #BF360C
+        width 35
+        font-size 10
+        height 23
+        title "900"
+    }
+    item "deep-orange-A100" {
+        pos 410.0 -410.0
+        color #FF9E80
+        width 35
+        font-size 10
+        height 23
+        title "A100"
+    }
+    item "deep-orange-A200" {
+        pos 450.0 -410.0
+        color #FF6E40
+        width 35
+        font-size 10
+        height 23
+        title "A200"
+    }
+    item "deep-orange-A400" {
+        pos 490.0 -410.0
+        color #FF3D00
+        width 35
+        font-size 10
+        height 23
+        title "A400"
+    }
+    item "deep-orange-A700" {
+        pos 530.0 -410.0
+        color #DD2C00
+        width 35
+        font-size 10
+        height 23
+        title "A700"
+    }
+    item "brown" {
+        pos -70.0 -435.0
+        color brown
+        width 75
+        font-size 10
+        height 23
+    }
+    item "brown-50" {
+        pos 10.0 -435.0
+        color #EFEBE9
+        width 35
+        font-size 10
+        height 23
+        title "50"
+    }
+    item "brown-100" {
+        pos 50.0 -435.0
+        color #D7CCC8
+        width 35
+        font-size 10
+        height 23
+        title "100"
+    }
+    item "brown-200" {
+        pos 90.0 -435.0
+        color #BCAAA4
+        width 35
+        font-size 10
+        height 23
+        title "200"
+    }
+    item "brown-300" {
+        pos 130.0 -435.0
+        color #A1887F
+        width 35
+        font-size 10
+        height 23
+        title "300"
+    }
+    item "brown-400" {
+        pos 170.0 -435.0
+        color #8D6E63
+        width 35
+        font-size 10
+        height 23
+        title "400"
+    }
+    item "brown-500" {
+        pos 210.0 -435.0
+        color #795548
+        width 35
+        font-size 10
+        height 23
+        title "500"
+    }
+    item "brown-600" {
+        pos 250.0 -435.0
+        color #6D4C41
+        width 35
+        font-size 10
+        height 23
+        title "600"
+    }
+    item "brown-700" {
+        pos 290.0 -435.0
+        color #5D4037
+        width 35
+        font-size 10
+        height 23
+        title "700"
+    }
+    item "brown-800" {
+        pos 330.0 -435.0
+        color #4E342E
+        width 35
+        font-size 10
+        height 23
+        title "800"
+    }
+    item "brown-900" {
+        pos 370.0 -435.0
+        color #3E2723
+        width 35
+        font-size 10
+        height 23
+        title "900"
+    }
+    item "gray" {
+        pos -70.0 -460.0
+        color gray
+        width 75
+        font-size 10
+        height 23
+    }
+    item "gray-50" {
+        pos 10.0 -460.0
+        color #FAFAFA
+        width 35
+        font-size 10
+        height 23
+        title "50"
+    }
+    item "gray-100" {
+        pos 50.0 -460.0
+        color #F5F5F5
+        width 35
+        font-size 10
+        height 23
+        title "100"
+    }
+    item "gray-200" {
+        pos 90.0 -460.0
+        color #EEEEEE
+        width 35
+        font-size 10
+        height 23
+        title "200"
+    }
+    item "gray-300" {
+        pos 130.0 -460.0
+        color #E0E0E0
+        width 35
+        font-size 10
+        height 23
+        title "300"
+    }
+    item "gray-400" {
+        pos 170.0 -460.0
+        color #BDBDBD
+        width 35
+        font-size 10
+        height 23
+        title "400"
+    }
+    item "gray-500" {
+        pos 210.0 -460.0
+        color #9E9E9E
+        width 35
+        font-size 10
+        height 23
+        title "500"
+    }
+    item "gray-600" {
+        pos 250.0 -460.0
+        color #757575
+        width 35
+        font-size 10
+        height 23
+        title "600"
+    }
+    item "gray-700" {
+        pos 290.0 -460.0
+        color #616161
+        width 35
+        font-size 10
+        height 23
+        title "700"
+    }
+    item "gray-800" {
+        pos 330.0 -460.0
+        color #424242
+        width 35
+        font-size 10
+        height 23
+        title "800"
+    }
+    item "gray-900" {
+        pos 370.0 -460.0
+        color #212121
+        width 35
+        font-size 10
+        height 23
+        title "900"
+    }
+    item "bluegrey" {
+        pos -70.0 -485.0
+        color bluegrey
+        width 75
+        font-size 10
+        height 23
+    }
+    item "blue-grey-50" {
+        pos 10.0 -485.0
+        color #ECEFF1
+        width 35
+        font-size 10
+        height 23
+        title "50"
+    }
+    item "blue-grey-100" {
+        pos 50.0 -485.0
+        color #CFD8DC
+        width 35
+        font-size 10
+        height 23
+        title "100"
+    }
+    item "blue-grey-200" {
+        pos 90.0 -485.0
+        color #B0BEC5
+        width 35
+        font-size 10
+        height 23
+        title "200"
+    }
+    item "blue-grey-300" {
+        pos 130.0 -485.0
+        color #90A4AE
+        width 35
+        font-size 10
+        height 23
+        title "300"
+    }
+    item "blue-grey-400" {
+        pos 170.0 -485.0
+        color #78909C
+        width 35
+        font-size 10
+        height 23
+        title "400"
+    }
+    item "blue-grey-500" {
+        pos 210.0 -485.0
+        color #607D8B
+        width 35
+        font-size 10
+        height 23
+        title "500"
+    }
+    item "blue-grey-600" {
+        pos 250.0 -485.0
+        color #546E7A
+        width 35
+        font-size 10
+        height 23
+        title "600"
+    }
+    item "blue-grey-700" {
+        pos 290.0 -485.0
+        color #455A64
+        width 35
+        font-size 10
+        height 23
+        title "700"
+    }
+    item "blue-grey-800" {
+        pos 330.0 -485.0
+        color #37474F
+        width 35
+        font-size 10
+        height 23
+        title "800"
+    }
+    item "blue-grey-900" {
+        pos 370.0 -485.0
+        color #263238
+        width 35
+        font-size 10
+        height 23
+        title "900"
+    }
+    item "white" {
+        pos -70.0 -4.0
+        color white
+        width 35
+        font-size 10
+        height 23
+    }
+    item "black" {
+        pos -30.0 -4.0
+        color black
+        width 35
+        font-size 10
+        height 23
+        body ""
+    }
+}

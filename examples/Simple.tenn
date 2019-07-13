@@ -1,0 +1,100 @@
+element "Simple" {
+    styles {
+        central {
+            font-size 30
+        }
+        main {
+            font-size 20
+        }
+        child {
+            font-size 10
+        }
+    }
+    item "Central" {
+        pos -304.94140625 122.265625
+        use-style central
+        marker "🎁"
+    }
+    item "Main Topic 1" {
+        pos -114.0171890258789 189.265625
+        color orange
+        line-style solid
+        line-width 1
+        use-style main
+        marker "♣️"
+    }
+    link "Central" "Main Topic 1"
+    item "Main Topic 2" {
+        pos -112.0171890258789 74.265625
+        color lightblue
+        use-style main
+        marker "♥️"
+    }
+    link "Central" "Main Topic 2"
+    item "Main Topic 4" {
+        pos -481.0171813964844 69.265625
+        color green
+        use-style main
+        marker "♠️"
+    }
+    link "Central" "Main Topic 4"
+    item "Main Topic 5" {
+        pos -484.0171813964844 190.265625
+        color purple
+        use-style main
+        marker "♦️"
+    }
+    link "Central" "Main Topic 5"
+    item "Child Topic 1" {
+        pos 16.32109260559082 235.265625
+        font-size 12
+        use-style child
+    }
+    link "Main Topic 1" "Child Topic 1"
+    item "Child Topic 2" {
+        pos 66.32109069824219 158.265625
+        font-size 12
+        use-style child
+    }
+    link "Main Topic 1" "Child Topic 2"
+    item "Child" {
+        pos -544.9367065429688 237.265625
+        use-style child
+    }
+    link "Main Topic 5" "Child"
+    item "Child" {
+        pos -578.9367065429688 163.265625
+        use-style child
+    }
+    link "Main Topic 5" "Child" {
+        target-index 1
+    }
+    item "Child" {
+        pos -570.4884643554688 74.265625
+        use-style child
+    }
+    link "Main Topic 4" "Child" {
+        target-index 2
+    }
+    item "Child" {
+        pos -530.4884643554688 18.265625
+        use-style child
+    }
+    link "Main Topic 4" "Child" {
+        target-index 3
+    }
+    item "Child" {
+        pos 74.79960632324219 77.265625
+        use-style child
+    }
+    link "Main Topic 2" "Child" {
+        target-index 4
+    }
+    item "Child" {
+        pos -22.20039176940918 37.265625
+        use-style child
+    }
+    link "Main Topic 2" "Child" {
+        target-index 5
+    }
+}

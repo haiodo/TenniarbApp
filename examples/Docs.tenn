@@ -1,0 +1,73 @@
+element "Docs" {
+    item "Display" {
+        pos -375.0 135.0
+        body %{rect}
+        width ${items.MultiBody.width}
+        height ${items.MultiBody.height}
+        display rect
+    }
+    item "Named" {
+        pos -255.0 136.0
+        body {
+            text %{no-fill}
+            text-color red
+        }
+        width ${items.MultiBody.width}
+        height ${items.MultiBody.height}
+        display no-fill
+    }
+    item "Display" {
+        pos -9.0 135.0
+        body {
+            text %{Stack}
+            text-color red
+        }
+        width ${items.MultiBody.width}
+        height ${items.MultiBody.height}
+        display stack
+    }
+    item "Display" {
+        pos -130.0 135.0
+        title "My title ${parent.items.length}"
+        width ${items.MultiBody.width}
+        height ${items.MultiBody.height}
+        display circle
+    }
+    item "Variant 1" {
+        pos -357.0842590332031 215.0
+        display text
+        font-size 10
+    }
+    item "Variant 2" {
+        pos -237.08425903320312 215.0
+        display text
+        font-size 10
+    }
+    item "Variant 3" {
+        pos -110.0 215.0
+        display text
+        font-size 10
+    }
+    item "Variant 4" {
+        pos 6.915740966796875 215.0
+        display text
+        font-size 10
+    }
+    item "Variant 5" {
+        pos 131.91574096679688 213.0
+        display text
+        font-size 10
+    }
+    item "MultiBody" {
+        pos 116.0 138.0
+        body {
+            text %{
+        body text
+        body line 2
+    }
+            text-color red
+        }
+        display text
+    }
+    link "Display" "Named"
+}

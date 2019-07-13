@@ -1,0 +1,280 @@
+element "Links" {
+    item "Normal" {
+        pos -368.0 330.0
+        display text
+        title ""
+    }
+    item "display none" {
+        pos -101.0 331.0
+        display text
+        title ""
+    }
+    link "Normal" "display none"
+    item "Regular" {
+        pos -462.4532775878906 328.7261047363281
+    }
+    item "Normal" {
+        pos -372.0 284.0
+        display text
+        title ""
+    }
+    item "display none" {
+        pos -98.0 284.0
+        display text
+        title ""
+    }
+    link "Normal" "display none" {
+        source-index 1
+        target-index 1
+        pos -1.0 0.0
+        display arrow
+    }
+    item "Arrowed" {
+        pos -461.8858947753906 278.7261047363281
+    }
+    item "Arrowed" {
+        pos -460.8858947753906 228.72610473632812
+    }
+    item "Normal" {
+        pos -371.0 234.0
+        display text
+        title ""
+    }
+    item "display none" {
+        pos -97.0 234.0
+        display text
+        title ""
+    }
+    item "display arrow" {
+        pos -76.22052001953125 280.51776123046875
+        display text
+    }
+    item "display arrows" {
+        pos -78.19610595703125 230.51776123046875
+        display text
+    }
+    item "display none" {
+        pos -96.0 180.0
+        display text
+        title ""
+    }
+    item "Normal" {
+        pos -370.0 180.0
+        display text
+        title ""
+    }
+    link "Normal" "display none" {
+        source-index 3
+        target-index 3
+        pos -1.0 0.0
+        line-style dashed
+    }
+    item "Dashed" {
+        pos -460.8858947753906 175.72610473632812
+    }
+    item "line-dash dashed" {
+        pos -77.19610595703125 176.51776123046875
+        display text
+    }
+    item "Dotted" {
+        pos -461.8858947753906 127.72610473632812
+    }
+    item "display none" {
+        pos -97.0 132.0
+        display text
+        title ""
+    }
+    item "Normal" {
+        pos -371.0 132.0
+        display text
+        title ""
+    }
+    item "line-dash dotted" {
+        pos -78.19610595703125 128.51776123046875
+        display text
+    }
+    link "Normal" "display none" {
+        source-index 4
+        target-index 4
+        pos -1.0 0.0
+        line-style dotted
+    }
+    item "none or display solid" {
+        pos -74.19610595703125 327.51776123046875
+        display text
+    }
+    item "display arrows" {
+        pos -78.19610595703125 230.51776123046875
+        display text
+    }
+    item "Arrowed" {
+        pos -460.8858947753906 228.72610473632812
+    }
+    item "Normal" {
+        pos -371.0 234.0
+        display text
+        title ""
+    }
+    link "Normal" "display none" {
+        source-index 5
+        target-index 5
+        pos -1.0 0.0
+        display arrows
+    }
+    item "display none" {
+        pos -97.0 234.0
+        display text
+        title ""
+    }
+    item "Normal" {
+        pos -368.0 96.0
+        display text
+        title ""
+    }
+    link "Normal" "display none" {
+        source-index 6
+        target-index 6
+        pos 3.0 -27.0
+        line-width 2
+    }
+    item "none or display solid" {
+        pos -74.19610595703125 84.51776123046875
+        display text
+    }
+    item "display none" {
+        pos -105.0 99.0
+        display text
+        title ""
+    }
+    item "Regular" {
+        pos -462.4532775878906 85.72610473632812
+    }
+    element "Links doc" {
+        item "Variant 1" {
+            pos -460.0 318.26806640625
+            display text
+        }
+        item "Variant 3" {
+            pos -460.0 218.26806640625
+            display text
+        }
+        item "Variant 2" {
+            pos -460.0 269.26806640625
+            display text
+        }
+        item "Variant 4" {
+            pos -460.0 164.26806640625
+            display text
+        }
+        item "Variant 5" {
+            pos -460.0 116.26806640625
+            display text
+        }
+        item "Variant 6" {
+            pos -460.0 70.26806640625
+            display text
+        }
+        item "Normal" {
+            pos -358.0 320.0
+            display text
+            title ""
+        }
+        item "Normal" {
+            pos -360.0 170.0
+            display text
+            title ""
+        }
+        item "display none" {
+            pos -87.0 224.0
+            display text
+            title ""
+        }
+        item "Normal" {
+            pos -361.0 224.0
+            display text
+            title ""
+        }
+        item "display none" {
+            pos -86.0 170.0
+            display text
+            title ""
+        }
+        item "Normal" {
+            pos -358.0 86.0
+            display text
+            title ""
+        }
+        item "Normal" {
+            pos -362.0 274.0
+            display text
+            title ""
+        }
+        link "Normal" "display none" {
+            target-index 6
+        }
+        link "Normal" "display none" {
+            source-index 3
+            target-index 4
+            pos 3.0 -27.0
+            line-width 2
+        }
+        item "Normal" {
+            pos -361.0 224.0
+            display text
+            title ""
+        }
+        item "display none" {
+            pos -88.0 274.0
+            display text
+            title ""
+        }
+        link "Normal" "display none" {
+            source-index 2
+            pos -1.0 0.0
+            display arrows
+        }
+        item "display none" {
+            pos -87.0 224.0
+            display text
+            title ""
+        }
+        item "display none" {
+            pos -95.0 89.0
+            display text
+            title ""
+        }
+        link "Normal" "display none" {
+            source-index 4
+            target-index 2
+            pos -1.0 0.0
+            display arrow
+        }
+        link "Normal" "display none" {
+            source-index 1
+            target-index 1
+            pos -1.0 0.0
+            line-style dashed
+        }
+        item "display none" {
+            pos -87.0 122.0
+            display text
+            title ""
+        }
+        link "Normal" "display none" {
+            source-index 6
+            target-index 5
+            pos -1.0 0.0
+            line-style dotted
+        }
+        item "display none" {
+            pos -91.0 321.0
+            display text
+            title ""
+        }
+        item "Normal" {
+            pos -361.0 122.0
+            display text
+            title ""
+        }
+    }
+}

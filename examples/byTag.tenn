@@ -1,0 +1,73 @@
+element "byTag" {
+    item "Task1" {
+        pos -330.109375 113.70703125
+        value 10
+        days 2
+        color yellow
+    }
+    item "Task2" {
+        pos -213.109375 168.70703125
+        value 20
+        days 3
+        color green
+    }
+    item "Task3" {
+        pos -108.109375 109.70703125
+        not_value 30
+        days 5
+        color red
+    }
+    item "sum(value)" {
+        pos -231.25726318359375 -83.78252410888672
+        body %{
+    items: ${byTag('value').map(a=>a.value)}
+    sum: ${byTag('value').reduce( (a,b)=>a + b.value,0)}
+    easy sum: ${sum('value', 'value')}
+    days: ${sum('value', 'days')}
+    fully js: ${parent.items.filter(e=>e.value).map(e=>e.value).reduce((a,b)=>a+b)}
+}
+        color orange
+    }
+    link "sum(value)" "Task1"
+    link "sum(value)" "Task2"
+    link "sum(value)" "Task3"
+    item "value=10
+days=2" {
+        pos -344.5796813964844 221.70703125
+    }
+    link "Task1" "value=10
+days=2"
+    item "value=20
+days=3" {
+        pos -223.10116577148438 225.70703125
+    }
+    link "Task2" "value=20
+days=3"
+    item "not_value=30
+days=5" {
+        pos -103.6880874633789 222.70703125
+    }
+    link "Task3" "not_value=30
+days=5"
+    item "Source" {
+        pos -8.956090927124023 -134.78253173828125
+        body %{
+    body %{
+        items: \${byTag('value').map(a=>a.value)}
+        sum: \${byTag('value').reduce( (a,b)=>a + b.value,0)}
+        easy sum: \${sum('value', 'value')}
+        days: \${sum('value', 'days')}
+        fully js:  \${
+            parent.items.
+                filter(e=>e.value).
+                map(e=>e.value).
+                reduce((a,b)=>a+b)}
+    }
+}
+    }
+    link "sum(value)" "Source"
+    item "Quick query operations" {
+        pos -356.5963439941406 291.5770263671875
+        body "byTag/sum"
+    }
+}
