@@ -1,0 +1,6667 @@
+element "Documentation" {
+    element "Basic steps" {
+        item "Item" {
+            pos -572.0 274.0
+        }
+        item "Adding new items" {
+            pos -585.5537109375 325.0
+            display text
+            body {
+                text %{
+        1. Press 'Tab' to add new item to diagram
+        2. Select item and press 'Tab' to add linked item to diagram.
+    }
+            }
+        }
+        item "press 'Tab'" {
+            pos -498.5537109375 211.0
+            font-size 10
+        }
+        link "Item" "press 'Tab'" {
+            display arrow
+        }
+        item "New Item" {
+            pos -411.5712890625 274.0
+        }
+        link "press 'Tab'" "New Item" {
+            display arrow
+        }
+        link "Item" "New Item" {
+            display arrow
+        }
+        item "Adding link between items" {
+            pos -586.0693359375 113.0
+            display text
+            body {
+                text %{
+        1. Select existing item
+        2. Hold 'Ctrl' key and draw line to any new item.
+    }
+            }
+        }
+        item "Item" {
+            pos -577.5537109375 51.0
+        }
+        item "New Item" {
+            pos -417.185546875 51.0
+        }
+        item "hold 'Ctrl'" {
+            pos -525.5712890625 -30.0
+            font-size 10
+        }
+        link "Item" "hold 'Ctrl'" {
+            source-index 1
+            display arrow
+        }
+        item "Draw line" {
+            pos -437.7744140625 -30.0
+            font-size 10
+        }
+        link "hold 'Ctrl'" "Draw line"
+        link "Draw line" "New Item" {
+            target-index 1
+            display arrow
+        }
+        link "Item" "New Item" {
+            source-index 1
+            target-index 1
+            display arrow
+        }
+        item "Basic editing functions" {
+            pos -604.0693359375 414.0
+            display text
+            font-size 20
+        }
+        item "Duplicate items" {
+            pos -58.0693359375 329.0
+            display text
+            body {
+                text %{
+        1. Select one or more items
+        2. Press 'Cmd+D' to duplicate selection
+    }
+            }
+        }
+        item "Item" {
+            pos -55.5537109375 272.0
+        }
+        item "New Item" {
+            pos 145.814453125 273.0
+        }
+        item "press 'Cmd+D'" {
+            pos 34.4287109375 209.0
+            font-size 10
+        }
+        link "press 'Cmd+D'" "New Item" {
+            target-index 2
+            display arrow
+        }
+        link "Item" "press 'Cmd+D'" {
+            source-index 2
+            display arrow
+        }
+        link "Item" "New Item" {
+            source-index 2
+            target-index 2
+            display arrow
+        }
+        item "Styling items" {
+            pos -60.2177734375 67.0
+            display text
+            body {
+                text %{
+        1. Select *existing* item
+        2. Edit style properties.
+        2.1 color red    // Set one of colors
+        2.2 font-size 10   //Change font size
+    }
+            }
+        }
+        item "Big yellow item" {
+            pos -66.7998046875 -29.0
+            color red
+            text-color yellow
+            font-size 30
+        }
+        item "ColorAnnotation" {
+            pos 153.1083984375 -58.0
+            title ""
+            body {
+                text-color #1c00cf
+                text %{
+        name "Big blue item"
+        color red
+        text-color yellow
+        font-size 30
+    }
+            }
+        }
+        link "Big yellow item" "ColorAnnotation"
+        link "New Item" "New Item" {
+            source-index 1
+            target-index 1
+        }
+        link "Item" "Item" {
+            source-index 1
+            target-index 1
+        }
+        link "New Item" "New Item" {
+            source-index 1
+            target-index 1
+        }
+        link "New Item" "New Item" {
+            source-index 1
+            target-index 1
+        }
+        item "hold 'Ctrl'" {
+            pos -525.5712890625 -30.0
+            font-size 10
+        }
+        item "Draw line" {
+            pos -437.7744140625 -30.0
+            font-size 10
+        }
+        link "hold 'Ctrl'" "Draw line" {
+            source-index 1
+            target-index 1
+        }
+        link "Item" "hold 'Ctrl'" {
+            source-index 3
+            target-index 1
+            display arrow
+        }
+        link "Draw line" "New Item" {
+            source-index 1
+            target-index 3
+            display arrow
+        }
+        link "Item" "New Item" {
+            source-index 3
+            target-index 3
+            display arrow
+        }
+        item "Item" {
+            pos -577.5537109375 51.0
+        }
+        link "Item" "Item" {
+            source-index 3
+            target-index 3
+        }
+        item "New Item" {
+            pos -417.185546875 51.0
+        }
+        link "New Item" "New Item" {
+            source-index 3
+            target-index 3
+        }
+        link "New Item" "New Item" {
+            source-index 3
+            target-index 3
+        }
+        link "New Item" "New Item" {
+            source-index 3
+            target-index 3
+        }
+        item "New Item" {
+            pos -396.5712890625 -255.0
+            color green
+        }
+        link "press 'Option+Tab'" "New Item" {
+            target-index 4
+            display arrow
+        }
+        item "press 'Option+Tab'" {
+            pos -483.5537109375 -318.0
+            font-size 10
+        }
+        link "Item" "press 'Option+Tab'" {
+            source-index 4
+            display arrow
+        }
+        link "press 'Option+Tab'" "New Item" {
+            target-index 4
+            display arrow
+        }
+        item "Item" {
+            pos -557.0 -255.0
+            color green
+        }
+        item "Adding new items/ copy style" {
+            pos -570.5537109375 -204.0
+            display text
+            body {
+                text %{1. Select item and press 'Option Tab' 
+to add linked item to diagram.}
+            }
+        }
+        link "Item" "press 'Option+Tab'" {
+            source-index 4
+            display arrow
+        }
+        link "Item" "New Item" {
+            source-index 4
+            target-index 4
+            display arrow
+        }
+    }
+    element "Styling" {
+        element "Displays" {
+            styles {
+                annotation {
+                    color gray-400
+                    font-size 12
+                    shadow 5 -5 5
+                }
+                new_style_2 {
+                    color "white"
+                }
+            }
+            item "Blue" {
+                pos -1094.0 50.0
+                display circle
+                width 200
+                height 200
+                color $([0,0,255, 200])
+                shadow -5 -5 5
+            }
+            item "Green" {
+                pos -1011.0 174.0
+                display circle
+                width 200
+                height 200
+                color $([0,255,0, 150])
+                shadow -5 -5 5
+                line-width 15
+                line-style dotted
+            }
+            item "Yellow" {
+                pos -935.0 66.0
+                display circle
+                width ${utils.textWidth(name)*3}
+                height ${width}
+                color "#ffeeff"
+                shadow -15 -15 15
+            }
+            item "Box" {
+                pos -683.0 79.0
+                width 200
+                height 200
+                display no-fill
+                line-width 2
+                body "Body text"
+            }
+            item "Normal item" {
+                pos -668.0 110.0
+            }
+            item "Hi I'm text" {
+                pos -978.0 381.0
+                display text
+                text-color Red
+                shadow -5 -5 4
+            }
+            item "display=circle" {
+                pos -770.0 394.0
+                use-style annotation
+            }
+            link "Green" "display=circle" {
+                display arrow
+                line-width 2
+            }
+            item "display=text" {
+                pos -1228.439453125 324.0
+                use-style annotation
+                color yellow
+            }
+            link "Hi I'm text" "display=text" {
+                pos -129.0 29.0
+                display arrow
+                line-width 5
+            }
+            item "display=no-fill" {
+                pos -441.0 261.0
+                use-style annotation
+            }
+            link "Box" "display=no-fill"
+            item "display=none" {
+                pos -503.720703125 33.0
+                use-style annotation
+            }
+            link "Normal item" "display=none"
+            item "Box" {
+                pos -1259.0 173.0
+                display no-fill
+                line-width 1
+                body %{
+    display no-fill
+    line-style dashed
+}
+                line-style dashed
+            }
+            item "Box" {
+                pos -1260.0 83.0
+                display no-fill
+                body %{
+    display no-fill
+    line-style dotted
+}
+                line-style dotted
+                shadow -5 -5 7
+                line-width 1.5
+            }
+            item "shadow -15 -15 15" {
+                pos -1286.0 -11.0
+                use-style annotation
+                line-width 1
+            }
+            link "Yellow" "shadow -15 -15 15"
+            item "Untitled 1" {
+                pos -1127.79296875 416.98828125
+                display text
+            }
+            item "Box" {
+                pos -654.0 403.0
+                width 200
+                display no-fill
+                line-width 2
+                body "Body text"
+                line-style dashed
+            }
+            element "Docs" {
+                item "Display" {
+                    pos -375.0 135.0
+                    body %{rect}
+                    width ${items.MultiBody.width}
+                    height ${items.MultiBody.height}
+                    display rect
+                }
+                item "Named" {
+                    pos -255.0 136.0
+                    body {
+                        text %{no-fill}
+                        text-color red
+                    }
+                    width ${items.MultiBody.width}
+                    height ${items.MultiBody.height}
+                    display no-fill
+                }
+                item "Display" {
+                    pos -9.0 135.0
+                    body {
+                        text %{Stack}
+                        text-color red
+                    }
+                    width ${items.MultiBody.width}
+                    height ${items.MultiBody.height}
+                    display stack
+                }
+                item "Display" {
+                    pos -130.0 135.0
+                    title "My title ${parent.items.length}"
+                    width ${items.MultiBody.width}
+                    height ${items.MultiBody.height}
+                    display circle
+                }
+                item "Variant 1" {
+                    pos -357.0842590332031 215.0
+                    display text
+                    font-size 10
+                }
+                item "Variant 2" {
+                    pos -237.08425903320312 215.0
+                    display text
+                    font-size 10
+                }
+                item "Variant 3" {
+                    pos -110.0 215.0
+                    display text
+                    font-size 10
+                }
+                item "Variant 4" {
+                    pos 6.915740966796875 215.0
+                    display text
+                    font-size 10
+                }
+                item "Variant 5" {
+                    pos 131.91574096679688 213.0
+                    display text
+                    font-size 10
+                }
+                item "MultiBody" {
+                    pos 116.0 138.0
+                    body {
+                        text %{
+        body text
+        body line 2
+    }
+                        text-color red
+                    }
+                    display text
+                }
+                link "Display" "Named"
+            }
+        }
+        element "Links" {
+            item "Normal" {
+                pos -368.0 330.0
+                display text
+                title ""
+            }
+            item "display none" {
+                pos -101.0 331.0
+                display text
+                title ""
+            }
+            link "Normal" "display none"
+            item "Regular" {
+                pos -462.4532775878906 328.7261047363281
+            }
+            item "Normal" {
+                pos -372.0 284.0
+                display text
+                title ""
+            }
+            item "display none" {
+                pos -98.0 284.0
+                display text
+                title ""
+            }
+            link "Normal" "display none" {
+                source-index 1
+                target-index 1
+                pos -1.0 0.0
+                display arrow
+            }
+            item "Arrowed" {
+                pos -461.8858947753906 278.7261047363281
+            }
+            item "Arrowed" {
+                pos -460.8858947753906 228.72610473632812
+            }
+            item "Normal" {
+                pos -371.0 234.0
+                display text
+                title ""
+            }
+            item "display none" {
+                pos -97.0 234.0
+                display text
+                title ""
+            }
+            item "display arrow" {
+                pos -76.22052001953125 280.51776123046875
+                display text
+            }
+            item "display arrows" {
+                pos -78.19610595703125 230.51776123046875
+                display text
+            }
+            item "display none" {
+                pos -96.0 180.0
+                display text
+                title ""
+            }
+            item "Normal" {
+                pos -370.0 180.0
+                display text
+                title ""
+            }
+            link "Normal" "display none" {
+                source-index 3
+                target-index 3
+                pos -1.0 0.0
+                line-style dashed
+            }
+            item "Dashed" {
+                pos -460.8858947753906 175.72610473632812
+            }
+            item "line-dash dashed" {
+                pos -77.19610595703125 176.51776123046875
+                display text
+            }
+            item "Dotted" {
+                pos -461.8858947753906 127.72610473632812
+            }
+            item "display none" {
+                pos -97.0 132.0
+                display text
+                title ""
+            }
+            item "Normal" {
+                pos -371.0 132.0
+                display text
+                title ""
+            }
+            item "line-dash dotted" {
+                pos -78.19610595703125 128.51776123046875
+                display text
+            }
+            link "Normal" "display none" {
+                source-index 4
+                target-index 4
+                pos -1.0 0.0
+                line-style dotted
+            }
+            item "none or display solid" {
+                pos -74.19610595703125 327.51776123046875
+                display text
+            }
+            item "display arrows" {
+                pos -78.19610595703125 230.51776123046875
+                display text
+            }
+            item "Arrowed" {
+                pos -460.8858947753906 228.72610473632812
+            }
+            item "Normal" {
+                pos -371.0 234.0
+                display text
+                title ""
+            }
+            link "Normal" "display none" {
+                source-index 5
+                target-index 5
+                pos -1.0 0.0
+                display arrows
+            }
+            item "display none" {
+                pos -97.0 234.0
+                display text
+                title ""
+            }
+            item "Normal" {
+                pos -368.0 96.0
+                display text
+                title ""
+            }
+            link "Normal" "display none" {
+                source-index 6
+                target-index 6
+                pos 3.0 -27.0
+                line-width 2
+            }
+            item "none or display solid" {
+                pos -74.19610595703125 84.51776123046875
+                display text
+            }
+            item "display none" {
+                pos -105.0 99.0
+                display text
+                title ""
+            }
+            item "Regular" {
+                pos -462.4532775878906 85.72610473632812
+            }
+            element "Links doc" {
+                item "Variant 1" {
+                    pos -460.0 318.26806640625
+                    display text
+                }
+                item "Variant 3" {
+                    pos -460.0 218.26806640625
+                    display text
+                }
+                item "Variant 2" {
+                    pos -460.0 269.26806640625
+                    display text
+                }
+                item "Variant 4" {
+                    pos -460.0 164.26806640625
+                    display text
+                }
+                item "Variant 5" {
+                    pos -460.0 116.26806640625
+                    display text
+                }
+                item "Variant 6" {
+                    pos -460.0 70.26806640625
+                    display text
+                }
+                item "Normal" {
+                    pos -358.0 320.0
+                    display text
+                    title ""
+                }
+                item "Normal" {
+                    pos -360.0 170.0
+                    display text
+                    title ""
+                }
+                item "display none" {
+                    pos -87.0 224.0
+                    display text
+                    title ""
+                }
+                item "Normal" {
+                    pos -361.0 224.0
+                    display text
+                    title ""
+                }
+                item "display none" {
+                    pos -86.0 170.0
+                    display text
+                    title ""
+                }
+                item "Normal" {
+                    pos -358.0 86.0
+                    display text
+                    title ""
+                }
+                item "Normal" {
+                    pos -362.0 274.0
+                    display text
+                    title ""
+                }
+                link "Normal" "display none" {
+                    target-index 6
+                }
+                link "Normal" "display none" {
+                    source-index 3
+                    target-index 4
+                    pos 3.0 -27.0
+                    line-width 2
+                }
+                item "Normal" {
+                    pos -361.0 224.0
+                    display text
+                    title ""
+                }
+                item "display none" {
+                    pos -88.0 274.0
+                    display text
+                    title ""
+                }
+                link "Normal" "display none" {
+                    source-index 2
+                    pos -1.0 0.0
+                    display arrows
+                }
+                item "display none" {
+                    pos -87.0 224.0
+                    display text
+                    title ""
+                }
+                item "display none" {
+                    pos -95.0 89.0
+                    display text
+                    title ""
+                }
+                link "Normal" "display none" {
+                    source-index 4
+                    target-index 2
+                    pos -1.0 0.0
+                    display arrow
+                }
+                link "Normal" "display none" {
+                    source-index 1
+                    target-index 1
+                    pos -1.0 0.0
+                    line-style dashed
+                }
+                item "display none" {
+                    pos -87.0 122.0
+                    display text
+                    title ""
+                }
+                link "Normal" "display none" {
+                    source-index 6
+                    target-index 5
+                    pos -1.0 0.0
+                    line-style dotted
+                }
+                item "display none" {
+                    pos -91.0 321.0
+                    display text
+                    title ""
+                }
+                item "Normal" {
+                    pos -361.0 122.0
+                    display text
+                    title ""
+                }
+            }
+        }
+        element "Colors" {
+            item "red" {
+                pos -70.0 -35.0
+                color red
+                width 75
+                font-size 10
+                height 23
+            }
+            item "red-50" {
+                pos 10.0 -35.0
+                color #FFEBEE
+                width 35
+                font-size 10
+                height 23
+                title "50"
+            }
+            item "red-100" {
+                pos 50.0 -35.0
+                color #FFCDD2
+                width 35
+                font-size 10
+                height 23
+                title "100"
+            }
+            item "red-200" {
+                pos 90.0 -35.0
+                color #EF9A9A
+                width 35
+                font-size 10
+                height 23
+                title "200"
+            }
+            item "red-300" {
+                pos 130.0 -35.0
+                color #E57373
+                width 35
+                font-size 10
+                height 23
+                title "300"
+            }
+            item "red-400" {
+                pos 170.0 -35.0
+                color #EF5350
+                width 35
+                font-size 10
+                height 23
+                title "400"
+            }
+            item "red-500" {
+                pos 210.0 -35.0
+                color #F44336
+                width 35
+                font-size 10
+                height 23
+                title "500"
+            }
+            item "red-600" {
+                pos 250.0 -35.0
+                color #E53935
+                width 35
+                font-size 10
+                height 23
+                title "600"
+            }
+            item "red-700" {
+                pos 290.0 -35.0
+                color #D32F2F
+                width 35
+                font-size 10
+                height 23
+                title "700"
+            }
+            item "red-800" {
+                pos 330.0 -35.0
+                color #C62828
+                width 35
+                font-size 10
+                height 23
+                title "800"
+            }
+            item "red-900" {
+                pos 370.0 -35.0
+                color #B71C1C
+                width 35
+                font-size 10
+                height 23
+                title "900"
+            }
+            item "red-A100" {
+                pos 410.0 -35.0
+                color #FF8A80
+                width 35
+                font-size 10
+                height 23
+                title "A100"
+            }
+            item "red-A200" {
+                pos 450.0 -35.0
+                color #FF5252
+                width 35
+                font-size 10
+                height 23
+                title "A200"
+            }
+            item "red-A400" {
+                pos 490.0 -35.0
+                color #FF1744
+                width 35
+                font-size 10
+                height 23
+                title "A400"
+            }
+            item "red-A700" {
+                pos 530.0 -35.0
+                color #D50000
+                width 35
+                font-size 10
+                height 23
+                title "A700"
+            }
+            item "pink" {
+                pos -70.0 -60.0
+                color pink
+                width 75
+                font-size 10
+                height 23
+            }
+            item "pink-50" {
+                pos 10.0 -60.0
+                color #FCE4EC
+                width 35
+                font-size 10
+                height 23
+                title "50"
+            }
+            item "pink-100" {
+                pos 50.0 -60.0
+                color #F8BBD0
+                width 35
+                font-size 10
+                height 23
+                title "100"
+            }
+            item "pink-200" {
+                pos 90.0 -60.0
+                color #F48FB1
+                width 35
+                font-size 10
+                height 23
+                title "200"
+            }
+            item "pink-300" {
+                pos 130.0 -60.0
+                color #F06292
+                width 35
+                font-size 10
+                height 23
+                title "300"
+            }
+            item "pink-400" {
+                pos 170.0 -60.0
+                color #EC407A
+                width 35
+                font-size 10
+                height 23
+                title "400"
+            }
+            item "pink-500" {
+                pos 210.0 -60.0
+                color #E91E63
+                width 35
+                font-size 10
+                height 23
+                title "500"
+            }
+            item "pink-600" {
+                pos 250.0 -60.0
+                color #D81B60
+                width 35
+                font-size 10
+                height 23
+                title "600"
+            }
+            item "pink-700" {
+                pos 290.0 -60.0
+                color #C2185B
+                width 35
+                font-size 10
+                height 23
+                title "700"
+            }
+            item "pink-800" {
+                pos 330.0 -60.0
+                color #AD1457
+                width 35
+                font-size 10
+                height 23
+                title "800"
+            }
+            item "pink-900" {
+                pos 370.0 -60.0
+                color #880E4F
+                width 35
+                font-size 10
+                height 23
+                title "900"
+            }
+            item "pink-A100" {
+                pos 410.0 -60.0
+                color #FF80AB
+                width 35
+                font-size 10
+                height 23
+                title "A100"
+            }
+            item "pink-A200" {
+                pos 450.0 -60.0
+                color #FF4081
+                width 35
+                font-size 10
+                height 23
+                title "A200"
+            }
+            item "pink-A400" {
+                pos 490.0 -60.0
+                color #F50057
+                width 35
+                font-size 10
+                height 23
+                title "A400"
+            }
+            item "pink-A700" {
+                pos 530.0 -60.0
+                color #C51162
+                width 35
+                font-size 10
+                height 23
+                title "A700"
+            }
+            item "purple" {
+                pos -70.0 -85.0
+                color purple
+                width 75
+                font-size 10
+                height 23
+            }
+            item "purple-50" {
+                pos 10.0 -85.0
+                color #F3E5F5
+                width 35
+                font-size 10
+                height 23
+                title "50"
+            }
+            item "purple-100" {
+                pos 50.0 -85.0
+                color #E1BEE7
+                width 35
+                font-size 10
+                height 23
+                title "100"
+            }
+            item "purple-200" {
+                pos 90.0 -85.0
+                color #CE93D8
+                width 35
+                font-size 10
+                height 23
+                title "200"
+            }
+            item "purple-300" {
+                pos 130.0 -85.0
+                color #BA68C8
+                width 35
+                font-size 10
+                height 23
+                title "300"
+            }
+            item "purple-400" {
+                pos 170.0 -85.0
+                color #AB47BC
+                width 35
+                font-size 10
+                height 23
+                title "400"
+            }
+            item "purple-500" {
+                pos 210.0 -85.0
+                color #9C27B0
+                width 35
+                font-size 10
+                height 23
+                title "500"
+            }
+            item "purple-600" {
+                pos 250.0 -85.0
+                color #8E24AA
+                width 35
+                font-size 10
+                height 23
+                title "600"
+            }
+            item "purple-700" {
+                pos 290.0 -85.0
+                color #7B1FA2
+                width 35
+                font-size 10
+                height 23
+                title "700"
+            }
+            item "purple-800" {
+                pos 330.0 -85.0
+                color #6A1B9A
+                width 35
+                font-size 10
+                height 23
+                title "800"
+            }
+            item "purple-900" {
+                pos 370.0 -85.0
+                color #4A148C
+                width 35
+                font-size 10
+                height 23
+                title "900"
+            }
+            item "purple-A100" {
+                pos 410.0 -85.0
+                color #EA80FC
+                width 35
+                font-size 10
+                height 23
+                title "A100"
+            }
+            item "purple-A200" {
+                pos 450.0 -85.0
+                color #E040FB
+                width 35
+                font-size 10
+                height 23
+                title "A200"
+            }
+            item "purple-A400" {
+                pos 490.0 -85.0
+                color #D500F9
+                width 35
+                font-size 10
+                height 23
+                title "A400"
+            }
+            item "purple-A700" {
+                pos 530.0 -85.0
+                color #AA00FF
+                width 35
+                font-size 10
+                height 23
+                title "A700"
+            }
+            item "deeppurple" {
+                pos -70.0 -110.0
+                color deeppurple
+                width 75
+                font-size 10
+                height 23
+            }
+            item "deep-purple-50" {
+                pos 10.0 -110.0
+                color #EDE7F6
+                width 35
+                font-size 10
+                height 23
+                title "50"
+            }
+            item "deep-purple-100" {
+                pos 50.0 -110.0
+                color #D1C4E9
+                width 35
+                font-size 10
+                height 23
+                title "100"
+            }
+            item "deep-purple-200" {
+                pos 90.0 -110.0
+                color #B39DDB
+                width 35
+                font-size 10
+                height 23
+                title "200"
+            }
+            item "deep-purple-300" {
+                pos 130.0 -110.0
+                color #9575CD
+                width 35
+                font-size 10
+                height 23
+                title "300"
+            }
+            item "deep-purple-400" {
+                pos 170.0 -110.0
+                color #7E57C2
+                width 35
+                font-size 10
+                height 23
+                title "400"
+            }
+            item "deep-purple-500" {
+                pos 210.0 -110.0
+                color #673AB7
+                width 35
+                font-size 10
+                height 23
+                title "500"
+            }
+            item "deep-purple-600" {
+                pos 250.0 -110.0
+                color #5E35B1
+                width 35
+                font-size 10
+                height 23
+                title "600"
+            }
+            item "deep-purple-700" {
+                pos 290.0 -110.0
+                color #512DA8
+                width 35
+                font-size 10
+                height 23
+                title "700"
+            }
+            item "deep-purple-800" {
+                pos 330.0 -110.0
+                color #4527A0
+                width 35
+                font-size 10
+                height 23
+                title "800"
+            }
+            item "deep-purple-900" {
+                pos 370.0 -110.0
+                color #311B92
+                width 35
+                font-size 10
+                height 23
+                title "900"
+            }
+            item "deep-purple-A100" {
+                pos 410.0 -110.0
+                color #B388FF
+                width 35
+                font-size 10
+                height 23
+                title "A100"
+            }
+            item "deep-purple-A200" {
+                pos 450.0 -110.0
+                color #7C4DFF
+                width 35
+                font-size 10
+                height 23
+                title "A200"
+            }
+            item "deep-purple-A400" {
+                pos 490.0 -110.0
+                color #651FFF
+                width 35
+                font-size 10
+                height 23
+                title "A400"
+            }
+            item "deep-purple-A700" {
+                pos 530.0 -110.0
+                color #6200EA
+                width 35
+                font-size 10
+                height 23
+                title "A700"
+            }
+            item "indigo" {
+                pos -70.0 -135.0
+                color indigo
+                width 75
+                font-size 10
+                height 23
+            }
+            item "indigo-50" {
+                pos 10.0 -135.0
+                color #E8EAF6
+                width 35
+                font-size 10
+                height 23
+                title "50"
+            }
+            item "indigo-100" {
+                pos 50.0 -135.0
+                color #C5CAE9
+                width 35
+                font-size 10
+                height 23
+                title "100"
+            }
+            item "indigo-200" {
+                pos 90.0 -135.0
+                color #9FA8DA
+                width 35
+                font-size 10
+                height 23
+                title "200"
+            }
+            item "indigo-300" {
+                pos 130.0 -135.0
+                color #7986CB
+                width 35
+                font-size 10
+                height 23
+                title "300"
+            }
+            item "indigo-400" {
+                pos 170.0 -135.0
+                color #5C6BC0
+                width 35
+                font-size 10
+                height 23
+                title "400"
+            }
+            item "indigo-500" {
+                pos 210.0 -135.0
+                color #3F51B5
+                width 35
+                font-size 10
+                height 23
+                title "500"
+            }
+            item "indigo-600" {
+                pos 250.0 -135.0
+                color #3949AB
+                width 35
+                font-size 10
+                height 23
+                title "600"
+            }
+            item "indigo-700" {
+                pos 290.0 -135.0
+                color #303F9F
+                width 35
+                font-size 10
+                height 23
+                title "700"
+            }
+            item "indigo-800" {
+                pos 330.0 -135.0
+                color #283593
+                width 35
+                font-size 10
+                height 23
+                title "800"
+            }
+            item "indigo-900" {
+                pos 370.0 -135.0
+                color #1A237E
+                width 35
+                font-size 10
+                height 23
+                title "900"
+            }
+            item "indigo-A100" {
+                pos 410.0 -135.0
+                color #8C9EFF
+                width 35
+                font-size 10
+                height 23
+                title "A100"
+            }
+            item "indigo-A200" {
+                pos 450.0 -135.0
+                color #536DFE
+                width 35
+                font-size 10
+                height 23
+                title "A200"
+            }
+            item "indigo-A400" {
+                pos 490.0 -135.0
+                color #3D5AFE
+                width 35
+                font-size 10
+                height 23
+                title "A400"
+            }
+            item "indigo-A700" {
+                pos 530.0 -135.0
+                color #304FFE
+                width 35
+                font-size 10
+                height 23
+                title "A700"
+            }
+            item "blue" {
+                pos -70.0 -160.0
+                color blue
+                width 75
+                font-size 10
+                height 23
+            }
+            item "blue-50" {
+                pos 10.0 -160.0
+                color #E3F2FD
+                width 35
+                font-size 10
+                height 23
+                title "50"
+            }
+            item "blue-100" {
+                pos 50.0 -160.0
+                color #BBDEFB
+                width 35
+                font-size 10
+                height 23
+                title "100"
+            }
+            item "blue-200" {
+                pos 90.0 -160.0
+                color #90CAF9
+                width 35
+                font-size 10
+                height 23
+                title "200"
+            }
+            item "blue-300" {
+                pos 130.0 -160.0
+                color #64B5F6
+                width 35
+                font-size 10
+                height 23
+                title "300"
+            }
+            item "blue-400" {
+                pos 170.0 -160.0
+                color #42A5F5
+                width 35
+                font-size 10
+                height 23
+                title "400"
+            }
+            item "blue-500" {
+                pos 210.0 -160.0
+                color #2196F3
+                width 35
+                font-size 10
+                height 23
+                title "500"
+            }
+            item "blue-600" {
+                pos 250.0 -160.0
+                color #1E88E5
+                width 35
+                font-size 10
+                height 23
+                title "600"
+            }
+            item "blue-700" {
+                pos 290.0 -160.0
+                color #1976D2
+                width 35
+                font-size 10
+                height 23
+                title "700"
+            }
+            item "blue-800" {
+                pos 330.0 -160.0
+                color #1565C0
+                width 35
+                font-size 10
+                height 23
+                title "800"
+            }
+            item "blue-900" {
+                pos 370.0 -160.0
+                color #0D47A1
+                width 35
+                font-size 10
+                height 23
+                title "900"
+            }
+            item "blue-A100" {
+                pos 410.0 -160.0
+                color #82B1FF
+                width 35
+                font-size 10
+                height 23
+                title "A100"
+            }
+            item "blue-A200" {
+                pos 450.0 -160.0
+                color #448AFF
+                width 35
+                font-size 10
+                height 23
+                title "A200"
+            }
+            item "blue-A400" {
+                pos 490.0 -160.0
+                color #2979FF
+                width 35
+                font-size 10
+                height 23
+                title "A400"
+            }
+            item "blue-A700" {
+                pos 530.0 -160.0
+                color #2962FF
+                width 35
+                font-size 10
+                height 23
+                title "A700"
+            }
+            item "lightblue" {
+                pos -70.0 -185.0
+                color lightblue
+                width 75
+                font-size 10
+                height 23
+            }
+            item "light-blue-50" {
+                pos 10.0 -185.0
+                color #E1F5FE
+                width 35
+                font-size 10
+                height 23
+                title "50"
+            }
+            item "light-blue-100" {
+                pos 50.0 -185.0
+                color #B3E5FC
+                width 35
+                font-size 10
+                height 23
+                title "100"
+            }
+            item "light-blue-200" {
+                pos 90.0 -185.0
+                color #81D4FA
+                width 35
+                font-size 10
+                height 23
+                title "200"
+            }
+            item "light-blue-300" {
+                pos 130.0 -185.0
+                color #4FC3F7
+                width 35
+                font-size 10
+                height 23
+                title "300"
+            }
+            item "light-blue-400" {
+                pos 170.0 -185.0
+                color #29B6F6
+                width 35
+                font-size 10
+                height 23
+                title "400"
+            }
+            item "light-blue-500" {
+                pos 210.0 -185.0
+                color #03A9F4
+                width 35
+                font-size 10
+                height 23
+                title "500"
+            }
+            item "light-blue-600" {
+                pos 250.0 -185.0
+                color #039BE5
+                width 35
+                font-size 10
+                height 23
+                title "600"
+            }
+            item "light-blue-700" {
+                pos 290.0 -185.0
+                color #0288D1
+                width 35
+                font-size 10
+                height 23
+                title "700"
+            }
+            item "light-blue-800" {
+                pos 330.0 -185.0
+                color #0277BD
+                width 35
+                font-size 10
+                height 23
+                title "800"
+            }
+            item "light-blue-900" {
+                pos 370.0 -185.0
+                color #01579B
+                width 35
+                font-size 10
+                height 23
+                title "900"
+            }
+            item "light-blue-A100" {
+                pos 410.0 -185.0
+                color #80D8FF
+                width 35
+                font-size 10
+                height 23
+                title "A100"
+            }
+            item "light-blue-A200" {
+                pos 450.0 -185.0
+                color #40C4FF
+                width 35
+                font-size 10
+                height 23
+                title "A200"
+            }
+            item "light-blue-A400" {
+                pos 490.0 -185.0
+                color #00B0FF
+                width 35
+                font-size 10
+                height 23
+                title "A400"
+            }
+            item "light-blue-A700" {
+                pos 530.0 -185.0
+                color #0091EA
+                width 35
+                font-size 10
+                height 23
+                title "A700"
+            }
+            item "cyan" {
+                pos -70.0 -210.0
+                color cyan
+                width 75
+                font-size 10
+                height 23
+            }
+            item "cyan-50" {
+                pos 10.0 -210.0
+                color #E0F7FA
+                width 35
+                font-size 10
+                height 23
+                title "50"
+            }
+            item "cyan-100" {
+                pos 50.0 -210.0
+                color #B2EBF2
+                width 35
+                font-size 10
+                height 23
+                title "100"
+            }
+            item "cyan-200" {
+                pos 90.0 -210.0
+                color #80DEEA
+                width 35
+                font-size 10
+                height 23
+                title "200"
+            }
+            item "cyan-300" {
+                pos 130.0 -210.0
+                color #4DD0E1
+                width 35
+                font-size 10
+                height 23
+                title "300"
+            }
+            item "cyan-400" {
+                pos 170.0 -210.0
+                color #26C6DA
+                width 35
+                font-size 10
+                height 23
+                title "400"
+            }
+            item "cyan-500" {
+                pos 210.0 -210.0
+                color #00BCD4
+                width 35
+                font-size 10
+                height 23
+                title "500"
+            }
+            item "cyan-600" {
+                pos 250.0 -210.0
+                color #00ACC1
+                width 35
+                font-size 10
+                height 23
+                title "600"
+            }
+            item "cyan-700" {
+                pos 290.0 -210.0
+                color #0097A7
+                width 35
+                font-size 10
+                height 23
+                title "700"
+            }
+            item "cyan-800" {
+                pos 330.0 -210.0
+                color #00838F
+                width 35
+                font-size 10
+                height 23
+                title "800"
+            }
+            item "cyan-900" {
+                pos 370.0 -210.0
+                color #006064
+                width 35
+                font-size 10
+                height 23
+                title "900"
+            }
+            item "cyan-A100" {
+                pos 410.0 -210.0
+                color #84FFFF
+                width 35
+                font-size 10
+                height 23
+                title "A100"
+            }
+            item "cyan-A200" {
+                pos 450.0 -210.0
+                color #18FFFF
+                width 35
+                font-size 10
+                height 23
+                title "A200"
+            }
+            item "cyan-A400" {
+                pos 490.0 -210.0
+                color #00E5FF
+                width 35
+                font-size 10
+                height 23
+                title "A400"
+            }
+            item "cyan-A700" {
+                pos 530.0 -210.0
+                color #00B8D4
+                width 35
+                font-size 10
+                height 23
+                title "A700"
+            }
+            item "teal" {
+                pos -70.0 -235.0
+                color teal
+                width 75
+                font-size 10
+                height 23
+            }
+            item "teal-50" {
+                pos 10.0 -235.0
+                color #E0F2F1
+                width 35
+                font-size 10
+                height 23
+                title "50"
+            }
+            item "teal-100" {
+                pos 50.0 -235.0
+                color #B2DFDB
+                width 35
+                font-size 10
+                height 23
+                title "100"
+            }
+            item "teal-200" {
+                pos 90.0 -235.0
+                color #80CBC4
+                width 35
+                font-size 10
+                height 23
+                title "200"
+            }
+            item "teal-300" {
+                pos 130.0 -235.0
+                color #4DB6AC
+                width 35
+                font-size 10
+                height 23
+                title "300"
+            }
+            item "teal-400" {
+                pos 170.0 -235.0
+                color #26A69A
+                width 35
+                font-size 10
+                height 23
+                title "400"
+            }
+            item "teal-500" {
+                pos 210.0 -235.0
+                color #009688
+                width 35
+                font-size 10
+                height 23
+                title "500"
+            }
+            item "teal-600" {
+                pos 250.0 -235.0
+                color #00897B
+                width 35
+                font-size 10
+                height 23
+                title "600"
+            }
+            item "teal-700" {
+                pos 290.0 -235.0
+                color #00796B
+                width 35
+                font-size 10
+                height 23
+                title "700"
+            }
+            item "teal-800" {
+                pos 330.0 -235.0
+                color #00695C
+                width 35
+                font-size 10
+                height 23
+                title "800"
+            }
+            item "teal-900" {
+                pos 370.0 -235.0
+                color #004D40
+                width 35
+                font-size 10
+                height 23
+                title "900"
+            }
+            item "teal-A100" {
+                pos 410.0 -235.0
+                color #A7FFEB
+                width 35
+                font-size 10
+                height 23
+                title "A100"
+            }
+            item "teal-A200" {
+                pos 450.0 -235.0
+                color #64FFDA
+                width 35
+                font-size 10
+                height 23
+                title "A200"
+            }
+            item "teal-A400" {
+                pos 490.0 -235.0
+                color #1DE9B6
+                width 35
+                font-size 10
+                height 23
+                title "A400"
+            }
+            item "teal-A700" {
+                pos 530.0 -235.0
+                color #00BFA5
+                width 35
+                font-size 10
+                height 23
+                title "A700"
+            }
+            item "green" {
+                pos -70.0 -260.0
+                color green
+                width 75
+                font-size 10
+                height 23
+            }
+            item "green-50" {
+                pos 10.0 -260.0
+                color #E8F5E9
+                width 35
+                font-size 10
+                height 23
+                title "50"
+            }
+            item "green-100" {
+                pos 50.0 -260.0
+                color #C8E6C9
+                width 35
+                font-size 10
+                height 23
+                title "100"
+            }
+            item "green-200" {
+                pos 90.0 -260.0
+                color #A5D6A7
+                width 35
+                font-size 10
+                height 23
+                title "200"
+            }
+            item "green-300" {
+                pos 130.0 -260.0
+                color #81C784
+                width 35
+                font-size 10
+                height 23
+                title "300"
+            }
+            item "green-400" {
+                pos 170.0 -260.0
+                color #66BB6A
+                width 35
+                font-size 10
+                height 23
+                title "400"
+            }
+            item "green-500" {
+                pos 210.0 -260.0
+                color #4CAF50
+                width 35
+                font-size 10
+                height 23
+                title "500"
+            }
+            item "green-600" {
+                pos 250.0 -260.0
+                color #43A047
+                width 35
+                font-size 10
+                height 23
+                title "600"
+            }
+            item "green-700" {
+                pos 290.0 -260.0
+                color #388E3C
+                width 35
+                font-size 10
+                height 23
+                title "700"
+            }
+            item "green-800" {
+                pos 330.0 -260.0
+                color #2E7D32
+                width 35
+                font-size 10
+                height 23
+                title "800"
+            }
+            item "green-900" {
+                pos 370.0 -260.0
+                color #1B5E20
+                width 35
+                font-size 10
+                height 23
+                title "900"
+            }
+            item "green-A100" {
+                pos 410.0 -260.0
+                color #B9F6CA
+                width 35
+                font-size 10
+                height 23
+                title "A100"
+            }
+            item "green-A200" {
+                pos 450.0 -260.0
+                color #69F0AE
+                width 35
+                font-size 10
+                height 23
+                title "A200"
+            }
+            item "green-A400" {
+                pos 490.0 -260.0
+                color #00E676
+                width 35
+                font-size 10
+                height 23
+                title "A400"
+            }
+            item "green-A700" {
+                pos 530.0 -260.0
+                color #00C853
+                width 35
+                font-size 10
+                height 23
+                title "A700"
+            }
+            item "lightgreen" {
+                pos -70.0 -285.0
+                color lightgreen
+                width 75
+                font-size 10
+                height 23
+            }
+            item "light-green-50" {
+                pos 10.0 -285.0
+                color #F1F8E9
+                width 35
+                font-size 10
+                height 23
+                title "50"
+            }
+            item "light-green-100" {
+                pos 50.0 -285.0
+                color #DCEDC8
+                width 35
+                font-size 10
+                height 23
+                title "100"
+            }
+            item "light-green-200" {
+                pos 90.0 -285.0
+                color #C5E1A5
+                width 35
+                font-size 10
+                height 23
+                title "200"
+            }
+            item "light-green-300" {
+                pos 130.0 -285.0
+                color #AED581
+                width 35
+                font-size 10
+                height 23
+                title "300"
+            }
+            item "light-green-400" {
+                pos 170.0 -285.0
+                color #9CCC65
+                width 35
+                font-size 10
+                height 23
+                title "400"
+            }
+            item "light-green-500" {
+                pos 210.0 -285.0
+                color #8BC34A
+                width 35
+                font-size 10
+                height 23
+                title "500"
+            }
+            item "light-green-600" {
+                pos 250.0 -285.0
+                color #7CB342
+                width 35
+                font-size 10
+                height 23
+                title "600"
+            }
+            item "light-green-700" {
+                pos 290.0 -285.0
+                color #689F38
+                width 35
+                font-size 10
+                height 23
+                title "700"
+            }
+            item "light-green-800" {
+                pos 330.0 -285.0
+                color #558B2F
+                width 35
+                font-size 10
+                height 23
+                title "800"
+            }
+            item "light-green-900" {
+                pos 370.0 -285.0
+                color #33691E
+                width 35
+                font-size 10
+                height 23
+                title "900"
+            }
+            item "light-green-A100" {
+                pos 410.0 -285.0
+                color #CCFF90
+                width 35
+                font-size 10
+                height 23
+                title "A100"
+            }
+            item "light-green-A200" {
+                pos 450.0 -285.0
+                color #B2FF59
+                width 35
+                font-size 10
+                height 23
+                title "A200"
+            }
+            item "light-green-A400" {
+                pos 490.0 -285.0
+                color #76FF03
+                width 35
+                font-size 10
+                height 23
+                title "A400"
+            }
+            item "light-green-A700" {
+                pos 530.0 -285.0
+                color #64DD17
+                width 35
+                font-size 10
+                height 23
+                title "A700"
+            }
+            item "lime" {
+                pos -70.0 -310.0
+                color lime
+                width 75
+                font-size 10
+                height 23
+            }
+            item "lime-50" {
+                pos 10.0 -310.0
+                color #F9FBE7
+                width 35
+                font-size 10
+                height 23
+                title "50"
+            }
+            item "lime-100" {
+                pos 50.0 -310.0
+                color #F0F4C3
+                width 35
+                font-size 10
+                height 23
+                title "100"
+            }
+            item "lime-200" {
+                pos 90.0 -310.0
+                color #E6EE9C
+                width 35
+                font-size 10
+                height 23
+                title "200"
+            }
+            item "lime-300" {
+                pos 130.0 -310.0
+                color #DCE775
+                width 35
+                font-size 10
+                height 23
+                title "300"
+            }
+            item "lime-400" {
+                pos 170.0 -310.0
+                color #D4E157
+                width 35
+                font-size 10
+                height 23
+                title "400"
+            }
+            item "lime-500" {
+                pos 210.0 -310.0
+                color #CDDC39
+                width 35
+                font-size 10
+                height 23
+                title "500"
+            }
+            item "lime-600" {
+                pos 250.0 -310.0
+                color #C0CA33
+                width 35
+                font-size 10
+                height 23
+                title "600"
+            }
+            item "lime-700" {
+                pos 290.0 -310.0
+                color #AFB42B
+                width 35
+                font-size 10
+                height 23
+                title "700"
+            }
+            item "lime-800" {
+                pos 330.0 -310.0
+                color #9E9D24
+                width 35
+                font-size 10
+                height 23
+                title "800"
+            }
+            item "lime-900" {
+                pos 370.0 -310.0
+                color #827717
+                width 35
+                font-size 10
+                height 23
+                title "900"
+            }
+            item "lime-A100" {
+                pos 410.0 -310.0
+                color #F4FF81
+                width 35
+                font-size 10
+                height 23
+                title "A100"
+            }
+            item "lime-A200" {
+                pos 450.0 -310.0
+                color #EEFF41
+                width 35
+                font-size 10
+                height 23
+                title "A200"
+            }
+            item "lime-A400" {
+                pos 490.0 -310.0
+                color #C6FF00
+                width 35
+                font-size 10
+                height 23
+                title "A400"
+            }
+            item "lime-A700" {
+                pos 530.0 -310.0
+                color #AEEA00
+                width 35
+                font-size 10
+                height 23
+                title "A700"
+            }
+            item "yellow" {
+                pos -70.0 -335.0
+                color yellow
+                width 75
+                font-size 10
+                height 23
+            }
+            item "yellow-50" {
+                pos 10.0 -335.0
+                color #FFFDE7
+                width 35
+                font-size 10
+                height 23
+                title "50"
+            }
+            item "yellow-100" {
+                pos 50.0 -335.0
+                color #FFF9C4
+                width 35
+                font-size 10
+                height 23
+                title "100"
+            }
+            item "yellow-200" {
+                pos 90.0 -335.0
+                color #FFF59D
+                width 35
+                font-size 10
+                height 23
+                title "200"
+            }
+            item "yellow-300" {
+                pos 130.0 -335.0
+                color #FFF176
+                width 35
+                font-size 10
+                height 23
+                title "300"
+            }
+            item "yellow-400" {
+                pos 170.0 -335.0
+                color #FFEE58
+                width 35
+                font-size 10
+                height 23
+                title "400"
+            }
+            item "yellow-500" {
+                pos 210.0 -335.0
+                color #FFEB3B
+                width 35
+                font-size 10
+                height 23
+                title "500"
+            }
+            item "yellow-600" {
+                pos 250.0 -335.0
+                color #FDD835
+                width 35
+                font-size 10
+                height 23
+                title "600"
+            }
+            item "yellow-700" {
+                pos 290.0 -335.0
+                color #FBC02D
+                width 35
+                font-size 10
+                height 23
+                title "700"
+            }
+            item "yellow-800" {
+                pos 330.0 -335.0
+                color #F9A825
+                width 35
+                font-size 10
+                height 23
+                title "800"
+            }
+            item "yellow-900" {
+                pos 370.0 -335.0
+                color #F57F17
+                width 35
+                font-size 10
+                height 23
+                title "900"
+            }
+            item "yellow-A100" {
+                pos 410.0 -335.0
+                color #FFFF8D
+                width 35
+                font-size 10
+                height 23
+                title "A100"
+            }
+            item "yellow-A200" {
+                pos 450.0 -335.0
+                color #FFFF00
+                width 35
+                font-size 10
+                height 23
+                title "A200"
+            }
+            item "yellow-A400" {
+                pos 490.0 -335.0
+                color #FFEA00
+                width 35
+                font-size 10
+                height 23
+                title "A400"
+            }
+            item "yellow-A700" {
+                pos 530.0 -335.0
+                color #FFD600
+                width 35
+                font-size 10
+                height 23
+                title "A700"
+            }
+            item "amber" {
+                pos -70.0 -360.0
+                color amber
+                width 75
+                font-size 10
+                height 23
+            }
+            item "amber-50" {
+                pos 10.0 -360.0
+                color #FFF8E1
+                width 35
+                font-size 10
+                height 23
+                title "50"
+            }
+            item "amber-100" {
+                pos 50.0 -360.0
+                color #FFECB3
+                width 35
+                font-size 10
+                height 23
+                title "100"
+            }
+            item "amber-200" {
+                pos 90.0 -360.0
+                color #FFE082
+                width 35
+                font-size 10
+                height 23
+                title "200"
+            }
+            item "amber-300" {
+                pos 130.0 -360.0
+                color #FFD54F
+                width 35
+                font-size 10
+                height 23
+                title "300"
+            }
+            item "amber-400" {
+                pos 170.0 -360.0
+                color #FFCA28
+                width 35
+                font-size 10
+                height 23
+                title "400"
+            }
+            item "amber-500" {
+                pos 210.0 -360.0
+                color #FFC107
+                width 35
+                font-size 10
+                height 23
+                title "500"
+            }
+            item "amber-600" {
+                pos 250.0 -360.0
+                color #FFB300
+                width 35
+                font-size 10
+                height 23
+                title "600"
+            }
+            item "amber-700" {
+                pos 290.0 -360.0
+                color #FFA000
+                width 35
+                font-size 10
+                height 23
+                title "700"
+            }
+            item "amber-800" {
+                pos 330.0 -360.0
+                color #FF8F00
+                width 35
+                font-size 10
+                height 23
+                title "800"
+            }
+            item "amber-900" {
+                pos 370.0 -360.0
+                color #FF6F00
+                width 35
+                font-size 10
+                height 23
+                title "900"
+            }
+            item "amber-A100" {
+                pos 410.0 -360.0
+                color #FFE57F
+                width 35
+                font-size 10
+                height 23
+                title "A100"
+            }
+            item "amber-A200" {
+                pos 450.0 -360.0
+                color #FFD740
+                width 35
+                font-size 10
+                height 23
+                title "A200"
+            }
+            item "amber-A400" {
+                pos 490.0 -360.0
+                color #FFC400
+                width 35
+                font-size 10
+                height 23
+                title "A400"
+            }
+            item "amber-A700" {
+                pos 530.0 -360.0
+                color #FFAB00
+                width 35
+                font-size 10
+                height 23
+                title "A700"
+            }
+            item "orange" {
+                pos -70.0 -385.0
+                color orange
+                width 75
+                font-size 10
+                height 23
+            }
+            item "orange-50" {
+                pos 10.0 -385.0
+                color #FFF3E0
+                width 35
+                font-size 10
+                height 23
+                title "50"
+            }
+            item "orange-100" {
+                pos 50.0 -385.0
+                color #FFE0B2
+                width 35
+                font-size 10
+                height 23
+                title "100"
+            }
+            item "orange-200" {
+                pos 90.0 -385.0
+                color #FFCC80
+                width 35
+                font-size 10
+                height 23
+                title "200"
+            }
+            item "orange-300" {
+                pos 130.0 -385.0
+                color #FFB74D
+                width 35
+                font-size 10
+                height 23
+                title "300"
+            }
+            item "orange-400" {
+                pos 170.0 -385.0
+                color #FFA726
+                width 35
+                font-size 10
+                height 23
+                title "400"
+            }
+            item "orange-500" {
+                pos 210.0 -385.0
+                color #FF9800
+                width 35
+                font-size 10
+                height 23
+                title "500"
+            }
+            item "orange-600" {
+                pos 250.0 -385.0
+                color #FB8C00
+                width 35
+                font-size 10
+                height 23
+                title "600"
+            }
+            item "orange-700" {
+                pos 290.0 -385.0
+                color #F57C00
+                width 35
+                font-size 10
+                height 23
+                title "700"
+            }
+            item "orange-800" {
+                pos 330.0 -385.0
+                color #EF6C00
+                width 35
+                font-size 10
+                height 23
+                title "800"
+            }
+            item "orange-900" {
+                pos 370.0 -385.0
+                color #E65100
+                width 35
+                font-size 10
+                height 23
+                title "900"
+            }
+            item "orange-A100" {
+                pos 410.0 -385.0
+                color #FFD180
+                width 35
+                font-size 10
+                height 23
+                title "A100"
+            }
+            item "orange-A200" {
+                pos 450.0 -385.0
+                color #FFAB40
+                width 35
+                font-size 10
+                height 23
+                title "A200"
+            }
+            item "orange-A400" {
+                pos 490.0 -385.0
+                color #FF9100
+                width 35
+                font-size 10
+                height 23
+                title "A400"
+            }
+            item "orange-A700" {
+                pos 530.0 -385.0
+                color #FF6D00
+                width 35
+                font-size 10
+                height 23
+                title "A700"
+            }
+            item "deeporange" {
+                pos -70.0 -410.0
+                color deeporange
+                width 75
+                font-size 10
+                height 23
+            }
+            item "deep-orange-50" {
+                pos 10.0 -410.0
+                color #FBE9E7
+                width 35
+                font-size 10
+                height 23
+                title "50"
+            }
+            item "deep-orange-100" {
+                pos 50.0 -410.0
+                color #FFCCBC
+                width 35
+                font-size 10
+                height 23
+                title "100"
+            }
+            item "deep-orange-200" {
+                pos 90.0 -410.0
+                color #FFAB91
+                width 35
+                font-size 10
+                height 23
+                title "200"
+            }
+            item "deep-orange-300" {
+                pos 130.0 -410.0
+                color #FF8A65
+                width 35
+                font-size 10
+                height 23
+                title "300"
+            }
+            item "deep-orange-400" {
+                pos 170.0 -410.0
+                color #FF7043
+                width 35
+                font-size 10
+                height 23
+                title "400"
+            }
+            item "deep-orange-500" {
+                pos 210.0 -410.0
+                color #FF5722
+                width 35
+                font-size 10
+                height 23
+                title "500"
+            }
+            item "deep-orange-600" {
+                pos 250.0 -410.0
+                color #F4511E
+                width 35
+                font-size 10
+                height 23
+                title "600"
+            }
+            item "deep-orange-700" {
+                pos 290.0 -410.0
+                color #E64A19
+                width 35
+                font-size 10
+                height 23
+                title "700"
+            }
+            item "deep-orange-800" {
+                pos 330.0 -410.0
+                color #D84315
+                width 35
+                font-size 10
+                height 23
+                title "800"
+            }
+            item "deep-orange-900" {
+                pos 370.0 -410.0
+                color #BF360C
+                width 35
+                font-size 10
+                height 23
+                title "900"
+            }
+            item "deep-orange-A100" {
+                pos 410.0 -410.0
+                color #FF9E80
+                width 35
+                font-size 10
+                height 23
+                title "A100"
+            }
+            item "deep-orange-A200" {
+                pos 450.0 -410.0
+                color #FF6E40
+                width 35
+                font-size 10
+                height 23
+                title "A200"
+            }
+            item "deep-orange-A400" {
+                pos 490.0 -410.0
+                color #FF3D00
+                width 35
+                font-size 10
+                height 23
+                title "A400"
+            }
+            item "deep-orange-A700" {
+                pos 530.0 -410.0
+                color #DD2C00
+                width 35
+                font-size 10
+                height 23
+                title "A700"
+            }
+            item "brown" {
+                pos -70.0 -435.0
+                color brown
+                width 75
+                font-size 10
+                height 23
+            }
+            item "brown-50" {
+                pos 10.0 -435.0
+                color #EFEBE9
+                width 35
+                font-size 10
+                height 23
+                title "50"
+            }
+            item "brown-100" {
+                pos 50.0 -435.0
+                color #D7CCC8
+                width 35
+                font-size 10
+                height 23
+                title "100"
+            }
+            item "brown-200" {
+                pos 90.0 -435.0
+                color #BCAAA4
+                width 35
+                font-size 10
+                height 23
+                title "200"
+            }
+            item "brown-300" {
+                pos 130.0 -435.0
+                color #A1887F
+                width 35
+                font-size 10
+                height 23
+                title "300"
+            }
+            item "brown-400" {
+                pos 170.0 -435.0
+                color #8D6E63
+                width 35
+                font-size 10
+                height 23
+                title "400"
+            }
+            item "brown-500" {
+                pos 210.0 -435.0
+                color #795548
+                width 35
+                font-size 10
+                height 23
+                title "500"
+            }
+            item "brown-600" {
+                pos 250.0 -435.0
+                color #6D4C41
+                width 35
+                font-size 10
+                height 23
+                title "600"
+            }
+            item "brown-700" {
+                pos 290.0 -435.0
+                color #5D4037
+                width 35
+                font-size 10
+                height 23
+                title "700"
+            }
+            item "brown-800" {
+                pos 330.0 -435.0
+                color #4E342E
+                width 35
+                font-size 10
+                height 23
+                title "800"
+            }
+            item "brown-900" {
+                pos 370.0 -435.0
+                color #3E2723
+                width 35
+                font-size 10
+                height 23
+                title "900"
+            }
+            item "gray" {
+                pos -70.0 -460.0
+                color gray
+                width 75
+                font-size 10
+                height 23
+            }
+            item "gray-50" {
+                pos 10.0 -460.0
+                color #FAFAFA
+                width 35
+                font-size 10
+                height 23
+                title "50"
+            }
+            item "gray-100" {
+                pos 50.0 -460.0
+                color #F5F5F5
+                width 35
+                font-size 10
+                height 23
+                title "100"
+            }
+            item "gray-200" {
+                pos 90.0 -460.0
+                color #EEEEEE
+                width 35
+                font-size 10
+                height 23
+                title "200"
+            }
+            item "gray-300" {
+                pos 130.0 -460.0
+                color #E0E0E0
+                width 35
+                font-size 10
+                height 23
+                title "300"
+            }
+            item "gray-400" {
+                pos 170.0 -460.0
+                color #BDBDBD
+                width 35
+                font-size 10
+                height 23
+                title "400"
+            }
+            item "gray-500" {
+                pos 210.0 -460.0
+                color #9E9E9E
+                width 35
+                font-size 10
+                height 23
+                title "500"
+            }
+            item "gray-600" {
+                pos 250.0 -460.0
+                color #757575
+                width 35
+                font-size 10
+                height 23
+                title "600"
+            }
+            item "gray-700" {
+                pos 290.0 -460.0
+                color #616161
+                width 35
+                font-size 10
+                height 23
+                title "700"
+            }
+            item "gray-800" {
+                pos 330.0 -460.0
+                color #424242
+                width 35
+                font-size 10
+                height 23
+                title "800"
+            }
+            item "gray-900" {
+                pos 370.0 -460.0
+                color #212121
+                width 35
+                font-size 10
+                height 23
+                title "900"
+            }
+            item "bluegrey" {
+                pos -70.0 -485.0
+                color bluegrey
+                width 75
+                font-size 10
+                height 23
+            }
+            item "blue-grey-50" {
+                pos 10.0 -485.0
+                color #ECEFF1
+                width 35
+                font-size 10
+                height 23
+                title "50"
+            }
+            item "blue-grey-100" {
+                pos 50.0 -485.0
+                color #CFD8DC
+                width 35
+                font-size 10
+                height 23
+                title "100"
+            }
+            item "blue-grey-200" {
+                pos 90.0 -485.0
+                color #B0BEC5
+                width 35
+                font-size 10
+                height 23
+                title "200"
+            }
+            item "blue-grey-300" {
+                pos 130.0 -485.0
+                color #90A4AE
+                width 35
+                font-size 10
+                height 23
+                title "300"
+            }
+            item "blue-grey-400" {
+                pos 170.0 -485.0
+                color #78909C
+                width 35
+                font-size 10
+                height 23
+                title "400"
+            }
+            item "blue-grey-500" {
+                pos 210.0 -485.0
+                color #607D8B
+                width 35
+                font-size 10
+                height 23
+                title "500"
+            }
+            item "blue-grey-600" {
+                pos 250.0 -485.0
+                color #546E7A
+                width 35
+                font-size 10
+                height 23
+                title "600"
+            }
+            item "blue-grey-700" {
+                pos 290.0 -485.0
+                color #455A64
+                width 35
+                font-size 10
+                height 23
+                title "700"
+            }
+            item "blue-grey-800" {
+                pos 330.0 -485.0
+                color #37474F
+                width 35
+                font-size 10
+                height 23
+                title "800"
+            }
+            item "blue-grey-900" {
+                pos 370.0 -485.0
+                color #263238
+                width 35
+                font-size 10
+                height 23
+                title "900"
+            }
+            item "white" {
+                pos -70.0 -4.0
+                color white
+                width 35
+                font-size 10
+                height 23
+            }
+            item "black" {
+                pos -30.0 -4.0
+                color black
+                width 35
+                font-size 10
+                height 23
+                body ""
+            }
+        }
+        element "Circles" {
+            styles {
+                line {
+                    display arrow
+                }
+                item {
+                    color red-600
+                    shadow -5 -5 3
+                }
+            }
+            item "Untitled 1" {
+                pos -351.5 -20.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -356.5 52.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -279.5 57.71484375
+                title ""
+                display circle
+                marker "⏰"
+            }
+            item "Untitled 1" {
+                pos -276.5 4.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -205.5 18.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -146.5 3.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -55.5 -31.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 19.5 -56.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -204.5 74.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -129.5 49.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -54.5 24.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 20.5 -0.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -223.5 126.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -148.5 101.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -36.5 99.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 1.5 51.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -352.5 -74.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -189.5 -74.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -190.5 -130.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -40.5 -180.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -261.5 -144.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -336.5 -169.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 34.5 -205.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -208.5 -22.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -133.5 -47.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -114.5 -99.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -277.5 -53.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -39.5 -124.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -58.5 -72.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 16.5 -97.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 35.5 -149.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -115.5 -155.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -115.5 209.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 47.5 209.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 46.5 153.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 196.5 103.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -87.5 167.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -99.5 114.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 271.5 78.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 28.5 261.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 103.5 236.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 122.5 184.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -40.5 230.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 197.5 159.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 178.5 211.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 253.5 186.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 272.5 134.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 121.5 128.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 84.5 -14.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 247.5 -14.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 246.5 -70.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 396.5 -120.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 175.5 -84.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 100.5 -109.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 471.5 -145.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 228.5 37.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 303.5 12.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 322.5 -39.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 159.5 6.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 397.5 -64.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 378.5 -12.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 453.5 -37.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 472.5 -89.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 321.5 -95.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 50.5 114.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 125.5 89.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 38.5 74.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 113.5 49.71484375
+                title ""
+                display circle
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 16
+                target-index 26
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 21
+                target-index 20
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 21
+                target-index 26
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 16
+                target-index 20
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 20
+                target-index 17
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 26
+                target-index 17
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 26
+                target-index 23
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 23
+                target-index 24
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 17
+                target-index 5
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 5
+                target-index 6
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 24
+                target-index 10
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 6
+                target-index 15
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 10
+                target-index 11
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 15
+                target-index 58
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 11
+                target-index 58
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 58
+                target-index 49
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 49
+                target-index 56
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 56
+                target-index 55
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 55
+                target-index 58
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 11
+                target-index 67
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 67
+                target-index 58
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 67
+                target-index 15
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 15
+                target-index 10
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 10
+                target-index 5
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 5
+                target-index 23
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 49
+                target-index 48
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 48
+                target-index 11
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 11
+                target-index 6
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 6
+                target-index 24
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 24
+                target-index 17
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 17
+                target-index 23
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 20
+                target-index 26
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 16
+                target-index 17
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 21
+                target-index 23
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 67
+                target-index 55
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 49
+                target-index 57
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 56
+                target-index 57
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 57
+                target-index 60
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 60
+                target-index 59
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 59
+                target-index 61
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 61
+                target-index 62
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 56
+                target-index 60
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 59
+                target-index 57
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 61
+                target-index 60
+            }
+            link "Untitled 1" "Untitled 1" {
+                source-index 62
+                target-index 59
+            }
+            item "Untitled 1" {
+                pos 347.5 109.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 328.5 161.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 346.5 53.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 422.5 84.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 403.5 136.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 421.5 28.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 497.5 59.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 478.5 111.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 496.5 3.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -160.5 158.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 109.5 -230.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 110.5 -174.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 169.5 -187.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 170.5 -131.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 241.5 -175.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 242.5 -119.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 303.5 -144.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 501.5 -48.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -297.5 101.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos -19.5 169.71484375
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 105.5 -56.28515625
+                title ""
+                display circle
+            }
+            item "Untitled 1" {
+                pos 180.5 -47.28515625
+                title ""
+                display circle
+            }
+        }
+        element "Text Colors" {
+            item "Item without
+styles" {
+                pos -415.0 149.5078125
+                width 140
+            }
+            item "Item with Green
+Background" {
+                pos -200.0 145.0
+                color green
+                width 140
+            }
+            item "Item with Green
+Text" {
+                pos -415.0 73.5078125
+                text-color green
+                width 140
+            }
+            item "Item with Blue
+Text on Green" {
+                pos -200.0 71.5078125
+                text-color blue
+                color green
+                width 140
+            }
+        }
+        element "Font size" {
+            item "Default item" {
+                pos -594.0 185.5078125
+                body "Default body"
+                font-size 18
+            }
+            item "Font - 10" {
+                pos -245.0 194.5078125
+                font-size 10
+            }
+            item "Font - 30" {
+                pos -162.0 180.5078125
+                font-size 30
+            }
+            item "Default item - 10" {
+                pos -454.0 162.5078125
+                body {
+                    text "Body text - 30"
+                    font-size 30
+                }
+            }
+            item "Variant 1" {
+                pos -565.084228515625 262.0
+                display text
+                font-size 10
+            }
+            item "Variant 2" {
+                pos -388.0842590332031 258.0
+                display text
+                font-size 10
+            }
+            item "Variant 3" {
+                pos -243.0 255.0
+                display text
+                font-size 10
+            }
+            item "Variant 4" {
+                pos -126.08425903320312 254.0
+                display text
+                font-size 10
+            }
+        }
+        element "Body" {
+            item "Named" {
+                pos -385.0 145.0
+                body "Body"
+                width ${items.MultiBody.width}
+                height ${items.MultiBody.height}
+            }
+            item "Named" {
+                pos -265.0 146.0
+                body {
+                    text "body text"
+                    text-color red
+                }
+                width ${items.MultiBody.width}
+                height ${items.MultiBody.height}
+            }
+            item "MultiBody" {
+                pos -19.0 145.0
+                body {
+                    text %{
+        body text
+        body line 2
+    }
+                    text-color red
+                }
+            }
+            item "Named" {
+                pos -140.0 145.0
+                body "Body"
+                title "My title ${parent.items.length}"
+                width ${items.MultiBody.width}
+                height ${items.MultiBody.height}
+            }
+            item "Variant 1" {
+                pos -367.0842590332031 225.0
+                display text
+                font-size 10
+            }
+            item "Variant 2" {
+                pos -247.08425903320312 225.0
+                display text
+                font-size 10
+            }
+            item "Variant 3" {
+                pos -120.0 225.0
+                display text
+                font-size 10
+            }
+            item "Variant 4" {
+                pos -3.084259033203125 225.0
+                display text
+                font-size 10
+            }
+        }
+        element "Width/Height" {
+            item "Variant 1" {
+                pos -367.0842590332031 225.0
+                display text
+                font-size 10
+            }
+            item "Variant 2" {
+                pos -247.08425903320312 225.0
+                display text
+                font-size 10
+            }
+            item "Variant 3" {
+                pos -120.0 225.0
+                display text
+                font-size 10
+            }
+            item "AAA" {
+                pos -362.47119140625 146.39297485351562
+                width 50
+            }
+            item "AAA" {
+                pos -282.47119140625 149.39297485351562
+                width 150
+            }
+            item "AAA" {
+                pos -114.47119140625 125.39297485351562
+                width ${utils.textWidth(name)*2}
+                height ${width}
+            }
+        }
+        element "Line styles" {
+            item "Normal" {
+                pos -413.140625 45.0
+            }
+            item "Dashed" {
+                pos -308.140625 45.0
+                line-style dashed
+            }
+            item "Dotted" {
+                pos -197.140625 45.0
+                line-style dotted
+            }
+            item "Dashed" {
+                pos -307.140625 -4.0
+                line-style dashed
+                line-width 3
+            }
+            item "Dotted" {
+                pos -196.140625 -4.0
+                line-style dotted
+                line-width 3
+            }
+            item "Normal" {
+                pos -412.140625 -4.0
+                line-width 3
+            }
+        }
+    }
+    element "Executions" {
+        define ${
+    function colorByDay() {
+        if (days > 3) {
+            return 'red'
+        }
+        if (days <= 3) {
+            return 'green-' + 2*days + '00'
+        }
+        return  'white'
+    }
+}
+        item "Use of Variables" {
+            pos -1785.0 1204.0
+            body {
+                text %{
+        a.value = ${items.a.value}
+        b.value = ${items.b.value}
+    }
+            }
+        }
+        item "a" {
+            pos -1782.0 1310.0
+            value 21
+            title "${name} = ${value}"
+        }
+        item "b" {
+            pos -1704.0 1311.0
+            value 31
+            title "${name} = ${value}"
+        }
+        item "Task1" {
+            pos -1551.34912109375 1293.8109130859375
+            days 2
+            kind task
+            width $(days*30)
+            body "days: ${days}"
+            color $(colorByDay())
+        }
+        item "Task info" {
+            pos -1546.34912109375 1201.8109130859375
+            body %{
+    Tasks: ${parent.items.filter( it => it.kind == 'task').map(e => e.days).reduce((a,b) =>a+b)}
+}
+        }
+        item "Task2" {
+            pos -1479.34912109375 1293.8109130859375
+            days 3
+            kind task
+            width $(days*30)
+            body "days: ${days}"
+            color $(colorByDay())
+        }
+        item "Task2" {
+            pos -1383.34912109375 1292.8109130859375
+            days 4
+            kind task
+            width $(days*30)
+            body "days: ${days}"
+            color $(colorByDay())
+        }
+        item "Named variables access" {
+            pos -1807.982666015625 1181.132080078125
+            display no-fill
+            height 200
+            body " "
+            line-style dashed
+        }
+        item "Iterare over all items with kind=='task'" {
+            pos -1559.982666015625 1179.132080078125
+            display no-fill
+            height 200
+            body ""
+            line-style dashed
+        }
+        item "color" {
+            pos -1953.882568359375 1423.042236328125
+            body 94
+            title ""
+        }
+        item "Color + 10" {
+            pos -1906.765380859375 1534.042236328125
+            color ${[items.color.body+10, (items.color.body*2) % 255, 0]}
+            body ${color}
+        }
+        item "Color + 20" {
+            pos -1789.765380859375 1534.042236328125
+            color ${[items.color.body+20, (items.color.body*2) % 255, 0]}
+            body ${color}
+        }
+        item "Color + 40" {
+            pos -1679.765380859375 1534.042236328125
+            color ${[items.color.body+40, (items.color.body*2) % 255, 0]}
+            body ${color}
+        }
+        item "Color + 60" {
+            pos -1569.765380859375 1535.042236328125
+            color ${[items.color.body+60, (items.color.body*2) % 255, 0]}
+            body ${color}
+        }
+        item "Color + 80" {
+            pos -1455.765380859375 1535.042236328125
+            color ${[items.color.body+80, (items.color.body*2) % 255, 0]}
+            body ${color}
+        }
+        item "Color + 100" {
+            pos -1346.765380859375 1531.042236328125
+            color ${[items.color.body+100, (items.color.body*2) % 255, 0]}
+            body ${color}
+        }
+        item "Color value" {
+            pos -2027.234130859375 1498.042236328125
+        }
+        link "color" "Color value"
+        element "Color on pos" {
+            define ${
+    function my_color() {
+        return [Math.abs(pos.x), Math.abs(pos.y),50]
+    }
+}
+            item "0:0" {
+                pos 10.0 -10.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "0:1" {
+                pos 10.0 -35.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "0:2" {
+                pos 10.0 -60.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "0:3" {
+                pos 10.0 -85.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "0:4" {
+                pos 10.0 -110.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "0:5" {
+                pos 10.0 -135.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "0:6" {
+                pos 10.0 -160.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "0:7" {
+                pos 10.0 -185.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "0:8" {
+                pos 10.0 -210.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "0:9" {
+                pos 10.0 -235.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "0:10" {
+                pos 10.0 -260.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "0:11" {
+                pos 10.0 -285.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "0:12" {
+                pos 10.0 -310.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "0:13" {
+                pos 10.0 -335.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "0:14" {
+                pos 10.0 -360.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "0:15" {
+                pos 10.0 -385.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "0:16" {
+                pos 10.0 -410.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "0:17" {
+                pos 10.0 -435.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "0:18" {
+                pos 10.0 -460.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "0:19" {
+                pos 10.0 -485.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "1:0" {
+                pos 45.0 -10.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "1:1" {
+                pos 45.0 -35.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "1:2" {
+                pos 45.0 -60.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "1:3" {
+                pos 45.0 -85.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "1:4" {
+                pos 45.0 -110.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "1:5" {
+                pos 45.0 -135.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "1:6" {
+                pos 45.0 -160.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "1:7" {
+                pos 45.0 -185.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "1:8" {
+                pos 45.0 -210.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "1:9" {
+                pos 45.0 -235.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "1:10" {
+                pos 45.0 -260.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "1:11" {
+                pos 45.0 -285.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "1:12" {
+                pos 45.0 -310.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "1:13" {
+                pos 45.0 -335.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "1:14" {
+                pos 45.0 -360.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "1:15" {
+                pos 45.0 -385.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "1:16" {
+                pos 45.0 -410.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "1:17" {
+                pos 45.0 -435.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "1:18" {
+                pos 45.0 -460.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "1:19" {
+                pos 45.0 -485.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "2:0" {
+                pos 80.0 -10.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "2:1" {
+                pos 80.0 -35.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "2:2" {
+                pos 80.0 -60.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "2:3" {
+                pos 80.0 -85.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "2:4" {
+                pos 80.0 -110.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "2:5" {
+                pos 80.0 -135.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "2:6" {
+                pos 80.0 -160.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "2:7" {
+                pos 80.0 -185.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "2:8" {
+                pos 80.0 -210.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "2:9" {
+                pos 80.0 -235.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "2:10" {
+                pos 80.0 -260.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "2:11" {
+                pos 80.0 -285.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "2:12" {
+                pos 80.0 -310.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "2:13" {
+                pos 80.0 -335.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "2:14" {
+                pos 80.0 -360.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "2:15" {
+                pos 80.0 -385.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "2:16" {
+                pos 80.0 -410.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "2:17" {
+                pos 80.0 -435.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "2:18" {
+                pos 80.0 -460.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "2:19" {
+                pos 80.0 -485.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "3:0" {
+                pos 115.0 -10.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "3:1" {
+                pos 115.0 -35.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "3:2" {
+                pos 115.0 -60.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "3:3" {
+                pos 115.0 -85.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "3:4" {
+                pos 115.0 -110.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "3:5" {
+                pos 115.0 -135.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "3:6" {
+                pos 115.0 -160.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "3:7" {
+                pos 115.0 -185.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "3:8" {
+                pos 115.0 -210.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "3:9" {
+                pos 115.0 -235.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "3:10" {
+                pos 115.0 -260.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "3:11" {
+                pos 115.0 -285.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "3:12" {
+                pos 115.0 -310.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "3:13" {
+                pos 115.0 -335.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "3:14" {
+                pos 115.0 -360.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "3:15" {
+                pos 115.0 -385.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "3:16" {
+                pos 115.0 -410.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "3:17" {
+                pos 115.0 -435.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "3:18" {
+                pos 115.0 -460.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "3:19" {
+                pos 115.0 -485.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "4:0" {
+                pos 150.0 -10.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "4:1" {
+                pos 150.0 -35.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "4:2" {
+                pos 150.0 -60.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "4:3" {
+                pos 150.0 -85.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "4:4" {
+                pos 150.0 -110.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "4:5" {
+                pos 150.0 -135.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "4:6" {
+                pos 150.0 -160.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "4:7" {
+                pos 150.0 -185.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "4:8" {
+                pos 150.0 -210.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "4:9" {
+                pos 150.0 -235.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "4:10" {
+                pos 150.0 -260.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "4:11" {
+                pos 150.0 -285.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "4:12" {
+                pos 150.0 -310.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "4:13" {
+                pos 150.0 -335.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "4:14" {
+                pos 150.0 -360.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "4:15" {
+                pos 150.0 -385.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "4:16" {
+                pos 150.0 -410.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "4:17" {
+                pos 150.0 -435.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "4:18" {
+                pos 150.0 -460.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "4:19" {
+                pos 150.0 -485.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "5:0" {
+                pos 185.0 -10.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "5:1" {
+                pos 185.0 -35.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "5:2" {
+                pos 185.0 -60.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "5:3" {
+                pos 185.0 -85.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "5:4" {
+                pos 185.0 -110.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "5:5" {
+                pos 185.0 -135.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "5:6" {
+                pos 185.0 -160.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "5:7" {
+                pos 185.0 -185.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "5:8" {
+                pos 185.0 -210.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "5:9" {
+                pos 185.0 -235.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "5:10" {
+                pos 185.0 -260.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "5:11" {
+                pos 185.0 -285.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "5:12" {
+                pos 185.0 -310.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "5:13" {
+                pos 185.0 -335.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "5:14" {
+                pos 185.0 -360.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "5:15" {
+                pos 185.0 -385.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "5:16" {
+                pos 185.0 -410.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "5:17" {
+                pos 185.0 -435.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "5:18" {
+                pos 185.0 -460.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "5:19" {
+                pos 185.0 -485.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "6:0" {
+                pos 220.0 -10.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "6:1" {
+                pos 220.0 -35.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "6:2" {
+                pos 220.0 -60.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "6:3" {
+                pos 220.0 -85.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "6:4" {
+                pos 220.0 -110.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "6:5" {
+                pos 220.0 -135.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "6:6" {
+                pos 220.0 -160.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "6:7" {
+                pos 220.0 -185.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "6:8" {
+                pos 220.0 -210.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "6:9" {
+                pos 220.0 -235.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "6:10" {
+                pos 220.0 -260.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "6:11" {
+                pos 220.0 -285.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "6:12" {
+                pos 220.0 -310.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "6:13" {
+                pos 220.0 -335.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "6:14" {
+                pos 220.0 -360.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "6:15" {
+                pos 220.0 -385.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "6:16" {
+                pos 220.0 -410.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "6:17" {
+                pos 220.0 -435.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "6:18" {
+                pos 220.0 -460.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "6:19" {
+                pos 220.0 -485.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "7:0" {
+                pos 255.0 -10.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "7:1" {
+                pos 255.0 -35.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "7:2" {
+                pos 255.0 -60.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "7:3" {
+                pos 255.0 -85.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "7:4" {
+                pos 255.0 -110.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "7:5" {
+                pos 255.0 -135.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "7:6" {
+                pos 255.0 -160.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "7:7" {
+                pos 255.0 -185.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "7:8" {
+                pos 255.0 -210.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "7:9" {
+                pos 255.0 -235.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "7:10" {
+                pos 255.0 -260.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "7:11" {
+                pos 255.0 -285.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "7:12" {
+                pos 255.0 -310.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "7:13" {
+                pos 255.0 -335.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "7:14" {
+                pos 255.0 -360.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "7:15" {
+                pos 255.0 -385.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "7:16" {
+                pos 255.0 -410.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "7:17" {
+                pos 255.0 -435.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "7:18" {
+                pos 255.0 -460.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "7:19" {
+                pos 255.0 -485.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "8:0" {
+                pos 290.0 -10.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "8:1" {
+                pos 290.0 -35.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "8:2" {
+                pos 290.0 -60.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "8:3" {
+                pos 290.0 -85.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "8:4" {
+                pos 290.0 -110.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "8:5" {
+                pos 290.0 -135.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "8:6" {
+                pos 290.0 -160.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "8:7" {
+                pos 290.0 -185.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "8:8" {
+                pos 290.0 -210.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "8:9" {
+                pos 290.0 -235.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "8:10" {
+                pos 290.0 -260.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "8:11" {
+                pos 290.0 -285.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "8:12" {
+                pos 290.0 -310.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "8:13" {
+                pos 290.0 -335.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "8:14" {
+                pos 290.0 -360.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "8:15" {
+                pos 290.0 -385.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "8:16" {
+                pos 290.0 -410.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "8:17" {
+                pos 290.0 -435.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "8:18" {
+                pos 290.0 -460.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "8:19" {
+                pos 290.0 -485.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "9:0" {
+                pos 325.0 -10.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "9:1" {
+                pos 325.0 -35.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "9:2" {
+                pos 325.0 -60.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "9:3" {
+                pos 325.0 -85.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "9:4" {
+                pos 325.0 -110.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "9:5" {
+                pos 325.0 -135.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "9:6" {
+                pos 325.0 -160.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "9:7" {
+                pos 325.0 -185.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "9:8" {
+                pos 325.0 -210.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "9:9" {
+                pos 325.0 -235.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "9:10" {
+                pos 325.0 -260.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "9:11" {
+                pos 325.0 -285.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "9:12" {
+                pos 325.0 -310.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "9:13" {
+                pos 325.0 -335.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "9:14" {
+                pos 325.0 -360.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "9:15" {
+                pos 325.0 -385.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "9:16" {
+                pos 325.0 -410.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "9:17" {
+                pos 325.0 -435.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "9:18" {
+                pos 325.0 -460.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "9:19" {
+                pos 325.0 -485.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "10:0" {
+                pos 360.0 -10.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "10:1" {
+                pos 360.0 -35.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "10:2" {
+                pos 360.0 -60.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "10:3" {
+                pos 360.0 -85.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "10:4" {
+                pos 360.0 -110.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "10:5" {
+                pos 360.0 -135.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "10:6" {
+                pos 360.0 -160.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "10:7" {
+                pos 360.0 -185.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "10:8" {
+                pos 360.0 -210.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "10:9" {
+                pos 360.0 -235.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "10:10" {
+                pos 360.0 -260.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "10:11" {
+                pos 360.0 -285.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "10:12" {
+                pos 360.0 -310.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "10:13" {
+                pos 360.0 -335.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "10:14" {
+                pos 360.0 -360.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "10:15" {
+                pos 360.0 -385.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "10:16" {
+                pos 360.0 -410.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "10:17" {
+                pos 360.0 -435.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "10:18" {
+                pos 360.0 -460.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "10:19" {
+                pos 360.0 -485.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "11:0" {
+                pos 395.0 -10.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "11:1" {
+                pos 395.0 -35.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "11:2" {
+                pos 395.0 -60.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "11:3" {
+                pos 395.0 -85.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "11:4" {
+                pos 395.0 -110.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "11:5" {
+                pos 395.0 -135.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "11:6" {
+                pos 395.0 -160.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "11:7" {
+                pos 395.0 -185.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "11:8" {
+                pos 395.0 -210.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "11:9" {
+                pos 395.0 -235.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "11:10" {
+                pos 395.0 -260.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "11:11" {
+                pos 395.0 -285.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "11:12" {
+                pos 395.0 -310.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "11:13" {
+                pos 395.0 -335.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "11:14" {
+                pos 395.0 -360.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "11:15" {
+                pos 395.0 -385.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "11:16" {
+                pos 395.0 -410.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "11:17" {
+                pos 395.0 -435.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "11:18" {
+                pos 395.0 -460.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "11:19" {
+                pos 395.0 -485.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "12:0" {
+                pos 430.0 -10.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "12:1" {
+                pos 430.0 -35.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "12:2" {
+                pos 430.0 -60.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "12:3" {
+                pos 430.0 -85.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "12:4" {
+                pos 430.0 -110.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "12:5" {
+                pos 430.0 -135.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "12:6" {
+                pos 430.0 -160.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "12:7" {
+                pos 430.0 -185.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "12:8" {
+                pos 430.0 -210.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "12:9" {
+                pos 430.0 -235.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "12:10" {
+                pos 430.0 -260.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "12:11" {
+                pos 430.0 -285.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "12:12" {
+                pos 430.0 -310.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "12:13" {
+                pos 430.0 -335.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "12:14" {
+                pos 430.0 -360.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "12:15" {
+                pos 430.0 -385.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "12:16" {
+                pos 430.0 -410.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "12:17" {
+                pos 430.0 -435.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "12:18" {
+                pos 430.0 -460.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "12:19" {
+                pos 430.0 -485.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "13:0" {
+                pos 465.0 -10.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "13:1" {
+                pos 465.0 -35.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "13:2" {
+                pos 465.0 -60.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "13:3" {
+                pos 465.0 -85.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "13:4" {
+                pos 465.0 -110.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "13:5" {
+                pos 465.0 -135.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "13:6" {
+                pos 465.0 -160.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "13:7" {
+                pos 465.0 -185.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "13:8" {
+                pos 465.0 -210.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "13:9" {
+                pos 465.0 -235.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "13:10" {
+                pos 465.0 -260.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "13:11" {
+                pos 465.0 -285.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "13:12" {
+                pos 465.0 -310.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "13:13" {
+                pos 465.0 -335.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "13:14" {
+                pos 465.0 -360.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "13:15" {
+                pos 465.0 -385.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "13:16" {
+                pos 465.0 -410.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "13:17" {
+                pos 465.0 -435.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "13:18" {
+                pos 465.0 -460.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "13:19" {
+                pos 465.0 -485.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "14:0" {
+                pos 500.0 -10.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "14:1" {
+                pos 500.0 -35.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "14:2" {
+                pos 500.0 -60.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "14:3" {
+                pos 500.0 -85.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "14:4" {
+                pos 500.0 -110.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "14:5" {
+                pos 500.0 -135.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "14:6" {
+                pos 500.0 -160.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "14:7" {
+                pos 500.0 -185.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "14:8" {
+                pos 500.0 -210.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "14:9" {
+                pos 500.0 -235.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "14:10" {
+                pos 500.0 -260.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "14:11" {
+                pos 500.0 -285.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "14:12" {
+                pos 500.0 -310.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "14:13" {
+                pos 500.0 -335.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "14:14" {
+                pos 500.0 -360.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "14:15" {
+                pos 500.0 -385.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "14:16" {
+                pos 500.0 -410.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "14:17" {
+                pos 500.0 -435.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "14:18" {
+                pos 500.0 -460.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "14:19" {
+                pos 500.0 -485.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "15:0" {
+                pos 535.0 -10.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "15:1" {
+                pos 535.0 -35.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "15:2" {
+                pos 535.0 -60.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "15:3" {
+                pos 535.0 -85.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "15:4" {
+                pos 535.0 -110.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "15:5" {
+                pos 535.0 -135.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "15:6" {
+                pos 535.0 -160.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "15:7" {
+                pos 535.0 -185.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "15:8" {
+                pos 535.0 -210.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "15:9" {
+                pos 535.0 -235.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "15:10" {
+                pos 535.0 -260.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "15:11" {
+                pos 535.0 -285.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "15:12" {
+                pos 535.0 -310.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "15:13" {
+                pos 535.0 -335.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "15:14" {
+                pos 535.0 -360.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "15:15" {
+                pos 535.0 -385.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "15:16" {
+                pos 535.0 -410.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "15:17" {
+                pos 535.0 -435.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "15:18" {
+                pos 535.0 -460.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "15:19" {
+                pos 535.0 -485.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "16:0" {
+                pos 570.0 -10.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "16:1" {
+                pos 570.0 -35.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "16:2" {
+                pos 570.0 -60.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "16:3" {
+                pos 570.0 -85.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "16:4" {
+                pos 570.0 -110.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "16:5" {
+                pos 570.0 -135.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "16:6" {
+                pos 570.0 -160.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "16:7" {
+                pos 570.0 -185.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "16:8" {
+                pos 570.0 -210.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "16:9" {
+                pos 570.0 -235.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "16:10" {
+                pos 570.0 -260.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "16:11" {
+                pos 570.0 -285.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "16:12" {
+                pos 570.0 -310.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "16:13" {
+                pos 570.0 -335.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "16:14" {
+                pos 570.0 -360.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "16:15" {
+                pos 570.0 -385.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "16:16" {
+                pos 570.0 -410.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "16:17" {
+                pos 570.0 -435.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "16:18" {
+                pos 570.0 -460.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "16:19" {
+                pos 570.0 -485.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "17:0" {
+                pos 605.0 -10.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "17:1" {
+                pos 605.0 -35.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "17:2" {
+                pos 605.0 -60.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "17:3" {
+                pos 605.0 -85.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "17:4" {
+                pos 605.0 -110.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "17:5" {
+                pos 605.0 -135.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "17:6" {
+                pos 605.0 -160.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "17:7" {
+                pos 605.0 -185.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "17:8" {
+                pos 605.0 -210.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "17:9" {
+                pos 605.0 -235.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "17:10" {
+                pos 605.0 -260.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "17:11" {
+                pos 605.0 -285.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "17:12" {
+                pos 605.0 -310.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "17:13" {
+                pos 605.0 -335.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "17:14" {
+                pos 605.0 -360.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "17:15" {
+                pos 605.0 -385.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "17:16" {
+                pos 605.0 -410.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "17:17" {
+                pos 605.0 -435.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "17:18" {
+                pos 605.0 -460.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "17:19" {
+                pos 605.0 -485.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "18:0" {
+                pos 640.0 -10.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "18:1" {
+                pos 640.0 -35.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "18:2" {
+                pos 640.0 -60.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "18:3" {
+                pos 640.0 -85.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "18:4" {
+                pos 640.0 -110.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "18:5" {
+                pos 640.0 -135.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "18:6" {
+                pos 640.0 -160.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "18:7" {
+                pos 640.0 -185.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "18:8" {
+                pos 640.0 -210.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "18:9" {
+                pos 640.0 -235.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "18:10" {
+                pos 640.0 -260.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "18:11" {
+                pos 640.0 -285.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "18:12" {
+                pos 640.0 -310.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "18:13" {
+                pos 640.0 -335.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "18:14" {
+                pos 640.0 -360.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "18:15" {
+                pos 640.0 -385.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "18:16" {
+                pos 640.0 -410.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "18:17" {
+                pos 640.0 -435.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "18:18" {
+                pos 640.0 -460.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "18:19" {
+                pos 640.0 -485.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "19:0" {
+                pos 675.0 -10.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "19:1" {
+                pos 675.0 -35.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "19:2" {
+                pos 675.0 -60.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "19:3" {
+                pos 675.0 -85.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "19:4" {
+                pos 675.0 -110.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "19:5" {
+                pos 675.0 -135.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "19:6" {
+                pos 675.0 -160.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "19:7" {
+                pos 675.0 -185.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "19:8" {
+                pos 675.0 -210.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "19:9" {
+                pos 675.0 -235.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "19:10" {
+                pos 675.0 -260.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "19:11" {
+                pos 675.0 -285.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "19:12" {
+                pos 675.0 -310.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "19:13" {
+                pos 675.0 -335.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "19:14" {
+                pos 675.0 -360.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "19:15" {
+                pos 675.0 -385.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "19:16" {
+                pos 675.0 -410.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "19:17" {
+                pos 675.0 -435.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "19:18" {
+                pos 675.0 -460.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+            item "19:19" {
+                pos 675.0 -485.0
+                color $(my_color())
+                width 35
+                font-size 10
+                height 23
+            }
+        }
+        element "Name collide" {
+            item "Demo" {
+                pos -602.9609375 193.8125
+                a 20
+                a. 30
+                font-size 20
+                body %{
+    ${a}
+    ${a_}
+    ${font_size}
+    ${items.ref.a}
+}
+            }
+            item "ref" {
+                pos -504.82421875 204.15625
+                a 55
+            }
+        }
+    }
+}
