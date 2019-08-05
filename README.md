@@ -1,4 +1,4 @@
-#  Tenniarb - General information
+#  TenniarbApp Documenation
 
 Tenniarb is a diagram/modelling tool, capable of doing simple and complex diagraming, easy organize them into categories. Easy create and style them, and as benetit it has a powerfull JavaScript calculation engine embedded, so styling and diagraming become a real powerfull solution for any kind of fast modelling and prototyping.
 
