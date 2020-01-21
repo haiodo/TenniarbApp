@@ -28,7 +28,7 @@ Where `element` is describing a logic structure of diagram layers embedded one i
 
 Main window:
 
-![](./Images/main_screen.png)
+![](./Images/general_info.png)
 
 Main window has following structural components:
 
@@ -112,9 +112,14 @@ Tenniarb support following item styles to define different look:
 <td><img src="./Images/styling_items.png"/></td>
 </tr>
 <tr>
-<td>Popup toolbar could be used for fast apply for basic display, color,font size, line width and marker fields. </td>
+<td>Popup toolbar could be used for fast apply for basic display, color,font size, line width and marker fields.
+</td>
 </td>
 <td><img src="./Images/diagram_quick_styles.png"/></td>
+<tr>
+<td>
+Quick edit bar (press 'Space' on item) could be used for fast editing of multiple properties. Use ';' as separator. Use of '-command' syntax will remove property from lit of item properties. This feature works for all selected items.</td><td><img src="./IMages/quickbar_multiitems.png"/></td>
+</tr>
 <tr>
 <td>All styles could be editing using textual representation in Tell language format. More details will be in Styling secrtion of this document.
 </td>
@@ -161,11 +166,13 @@ text-color blue
 
 Background and text color by default will be automaticcaly ajusted to fit into selected user theme.
 
-#### Title and Body properties.
+#### Title/Body/value properties.
 
-Every item on layer could be labeled by title and could have additional body field, if body is defined it will be shown udner title, and title will be on left of item.
+Every item on layer could be labeled by title and could have additional body/value fields, if body is defined it will be shown udner title, and title will be on left of item.
 
 By default `title` field uses name of item on layer. So it could be used without specificatio for most of situations. But could be changed, also `title` in compare to name support variable substituions and scripting.
+
+`Value` property could be used inside body and title using `${value}` syntax, and could be easy edited using keyboard shortcuts or menu.
 
 <table>
 <th colspan="2"><img src="./Images/body_all.png" width="600px"></th>
@@ -204,6 +211,12 @@ body {
 }
     </code></pre>
     </td>
+</tr>
+<tr>
+<td>Title and body could be edited by using context menu or keyboard shortcuts.
+
+</td>
+<td><img src="./Images/edit_title_body_value.png"/></td>
 </tr>
 </table>
 
@@ -323,6 +336,29 @@ a usefull for writing some text descriptions and formatted text areas. A full <b
 </tr>
 </table>
 
+### Layout property.
+<table>
+<tr>
+<td>
+Layout could be used to define how text is diplayed:
+
+Supported following valyes of layout property:
+
+* left - display text on left
+* center - diplay on center
+* right - display on right
+* middle - use middle layout
+* top - on top
+* bottom - on bottom
+* fill - use all vertical space
+
+Property could be specified on top level and for body.
+</td>
+<td>
+<img src="./Images/text-layout.png" width="400"/>
+</td>
+</tr>
+</table>
 
 ### Reusable styles
 Every layer support it's own defined styles, this styles could be used to define look of items.
@@ -367,19 +403,23 @@ Links could also have some styles:
     </td>
 </tr>
 <tr>
-    <td>2. <code>display arrow</code></td><td>draws arrow on target side.</tr>
+    <td>2. <code>display arrow</code></td><td>draws arrow on target side.</td>
 </tr>
 <tr>
-    <td>3. <code>display arrows</code></td><td>draws arrows on both sides.</tr>
+    <td>3. <code>display arrows</code></td><td>draws arrows on both sides.</td>
 </tr>
 <tr>
-    <td>4 <code>line-style dashed</code></td><td>draw line dashed.</tr>
+    <td>4 <code>line-style dashed</code></td><td>draw line dashed.</td>
 </tr>
 <tr>
-    <td>5 <code>line-style dotted</code></td><td>draw lines with dots.</tr>
+    <td>5 <code>line-style dotted</code></td><td>draw lines with dots.</td>
 </tr>
 <tr>
-    <td>6 <code>line-width 2</code> </td><td>control width of line.</tr>
+    <td>6 <code>line-width 2</code> </td><td>control width of line.</td>
+</tr>
+<tr>
+    <td>7 <code>layout quad</code> </td><td>Quad bezie line style</td>
+    <td><img src="./Images/quad-line-style.png"/></td>
 </tr>
 </table>
 
@@ -395,6 +435,132 @@ Line styles also could be applied to items.
 * `line-style dashed` draw line dashed.
 * `line-style dotted` draw lines with dots.
 * `line-width 2` control width of line.
+
+
+## Markdown support.
+
+Since 1.1 Tenniab support basic markdown syntax in name/title/body fields.
+
+To display bold, italic and colored values. Also now it support embedded images.
+
+Supported Markdown styles:
+<table>
+<tr>
+<td width="300">
+
+```
+Bold style
+name "Text is *bold*"
+```
+
+</td>
+<td><img src="./Images/markdown_bold.png" height="70"/></td>
+</tr>
+<tr>
+<td>
+
+```
+Italic
+name "Text is _italic_"
+```
+</td>
+<td><img src="./Images/markdown_italic.png" height="70"/></td>
+</tr>
+<tr>
+<td>
+
+```
+Under line
+name "Text is <underline>"
+```
+
+</td>
+<td><img src="./Images/markdown_underline.png" height="70"/></td>
+</tr>
+<tr>
+<td>
+
+```
+Code block
+name "Text is `code`"
+```
+
+</td>
+<td><img src="./Images/markdown_code.png" height="120"/></td>
+</tr>
+<tr>
+<td>
+
+```
+Scratches
+name "Text is ~scratchs~"
+```
+
+</td>
+<td><img src="./Images/markdown_scratches.png" height="70"/></td>
+</tr>
+<tr>
+<td>
+
+```
+Color selection
+name "Color !(red)RED and !() black"
+```
+
+</td>
+<td><img src="./Images/markdown_color.png" height="70"/></td>
+</tr>
+<tr>
+<td>
+
+```
+Color word selection
+name "Color !(red|RED) and !(blue|blue)"
+```
+
+</td>
+<td><img src="./Images/markdown_color_word.png" height="70"/></td>
+</tr>
+<tr>
+<td>
+
+```
+Topics
+title %{
+    # 1. Topic
+    and value. Some text is here.
+    # 2. Topic
+    and value2. Some more text is here.
+}
+```
+
+</td><td><img src="./Images/markdown_topics.png" width="300"/><td/>
+</tr>
+</table>
+
+# Image attachments support
+
+Since 1.1 Tenniarb support inline image attachments.
+
+1. Attach image using context menu.
+<img src="./Images/attach_image.png" width="300"/>
+
+2. Copy and paste image from browser.
+<img src="./Images/copy_paste_images.png" width="300"/>
+
+3. Use images.
+<img src="./Images/use_images_props.png" width="600"/>
+
+Images could be inserted using syntax
+```
+@(image_name|[width][x][height])
+```
+With optional size constrains:
+* 300 - width with aspect ration preserved
+* x300 - just height with aspect ratio preserved
+* 200x300 - both width and height specified.
+
+Images at this version could be used only from same item as attached.
 
 
 # Advanced details.
